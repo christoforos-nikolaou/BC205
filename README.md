@@ -24,7 +24,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Detecting regions in a sequence with extreme composition (based on a Z-score calculation)  
   c. Comparing sequences on the basis of their o/e k-mer ratios  
   
-  **Exercise 1**: Outlier Detection in Sequences/Sequence Comparisons with Genomic Signatures  
+  **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise1_2019.md)**: Outlier Detection in Sequences/Sequence Comparisons with Genomic Signatures  
     
 **[4. Motifs in Sequences I](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_03_motifs.pdf): Motif definition, Motif representation in PWM and PSSM, Motif Strength as Information Content**   
   a. Calculation of PWM and PSSM matrices from a set of motif instances   
@@ -47,13 +47,4 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
  **[7. Network Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_GenomeScaleAlgorithms_beamer.pdf): Network Basics, Statistical Properties of Networks, Network Searches and Applications in NGS**   
   a. Estimating the scaling properties of a network through node-degree distributions   
   b. BFS and DFS for network analysis  
-  c. Genome assembly and De Brujn Graphs  
-    
-
-    
-
-  
-  
-  
-    
-    
+  c. Genome assembly and De Brujn Graphs   
