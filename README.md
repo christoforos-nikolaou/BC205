@@ -25,6 +25,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Comparing sequences on the basis of their o/e k-mer ratios  
   
   **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise1_2019.md)**: Outlier Detection in Sequences/Sequence Comparisons with Genomic Signatures  
+  Send your reports via e-mail by **April 5th 2019**  
     
 **[4. Motifs in Sequences I](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_03_motifs.pdf): Motif definition, Motif representation in PWM and PSSM, Motif Strength as Information Content**   
   a. Calculation of PWM and PSSM matrices from a set of motif instances   
