@@ -23,6 +23,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   a. Finding the GC% of a sequence   
   b. Detecting regions in a sequence with extreme composition (based on a Z-score calculation)  
   c. Comparing sequences on the basis of their o/e k-mer ratios  
+  
   **Exercise 1**: Outlier Detection in Sequences/Sequence Comparisons with Genomic Signatures  
     
 **4. Motifs in Sequences I: Motif definition, Motif representation in PWM and PSSM, Motif Strength as Information Content**   
@@ -32,14 +33,16 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
     
 **5. Motifs in Sequences II: Motif Deduction, Greedy vs Randomized Approaches**   
   a. Estimating a motif from a set of sequences   
-  b. Deduction of motifs through a randomized approach (Gibbs Sampling)
+  b. Deduction of motifs through a randomized approach (Gibbs Sampling)  
+  
   **Exercise 2**: Deduction of Sequence Motifs with Gibbs Sampling/Location of instances in an unknown sequence
   
 **6. NGS Algorithms: Large-scale alignment and Genome-wide read mapping**   
   a. Heuristic approaches (BLAST, BLAT)   
   b. Alternative data structure approaches: Suffix Trees   
-  c. Transformation approaches: Burrows-Wheeler Transform (BWT)
-  **Exercise 2**: BWT encoding and decoding of a given sequence
+  c. Transformation approaches: Burrows-Wheeler Transform (BWT)  
+  
+  **Exercise 3**: BWT encoding and decoding of a given sequence
    
  **7. Network Algorithms: Network Basics, Statistical Properties of Networks, Network Searches and Applications in NGS**   
   a. Estimating the scaling properties of a network through node-degree distributions   
