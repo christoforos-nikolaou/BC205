@@ -48,4 +48,4 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
  **[7. Network Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_GenomeScaleAlgorithms_beamer.pdf): Network Basics, Statistical Properties of Networks, Network Searches and Applications in NGS**   
   a. Estimating the scaling properties of a network through node-degree distributions   
   b. BFS and DFS for network analysis  
-  c. Genome assembly and De Brujn Graphs   
+  c. Genome assembly and De Bruijn Graphs   
