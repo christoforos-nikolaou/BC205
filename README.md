@@ -36,7 +36,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   a. Estimating a motif from a set of sequences   
   b. Deduction of motifs through a randomized approach (Gibbs Sampling)  
   
-  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise2_2019.md)**: Deduction of Sequence Motifs with Gibbs Sampling/Location of instances in an unknown sequence
+  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise2_2019.md)**: Deduction of Sequence Motifs with Gibbs Sampling/Location of instances in an unknown sequence  
   Send your reports via e-mail by **May 24th 2019**
   
 **[6. NGS Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf): Large-scale alignment and Genome-wide read mapping**   
