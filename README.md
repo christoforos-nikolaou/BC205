@@ -44,7 +44,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Alternative data structure approaches: Suffix Trees   
   c. Transformation approaches: Burrows-Wheeler Transform (BWT)  
   
-  **Exercise 3**: BWT encoding and decoding of a given sequence
+  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise3_2019.md)**: BWT encoding and decoding of a given sequence
   Send your reports by **June 7th 2019**
    
  **[7. Network Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_GenomeScaleAlgorithms_beamer.pdf): Network Basics, Statistical Properties of Networks, Network Searches and Applications in NGS**   
