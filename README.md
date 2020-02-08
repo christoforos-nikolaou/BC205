@@ -5,7 +5,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
 **Contact Details**  
 *Christoforos Nikolaou: nikolaou@uoc.gr*  
-*web: https://computational-genomics-uoc.weebly.com/*  
+*web: https://computational-genomics.weebly.com/*  
 *twitter: @guilderstern*  
 
 ## 2018-2019 Academic Year
