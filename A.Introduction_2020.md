@@ -1,3 +1,10 @@
+# BC205
+## Algorithms in Bioinformatics - A. Introduction
+
+This is the git repository on the Course on Algorithms in Bioinformatics (BC205) which forms part of the Program of the Masters in Bionformatics at the University of Crete
+
+
+
 # Option 1: Compare Genome Sequences with k-mer frequency tables accounting for background composition
 
 - Task 1: Obtain the first chromosome from the genomes of the following organisms: 
