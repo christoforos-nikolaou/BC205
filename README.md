@@ -8,7 +8,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 *web: https://computational-genomics.weebly.com/*  
 *twitter: @guilderstern*  
 
-## 2018-2019 Academic Year
+## 2019-2020 Academic Year
 ### We will be covering the following topics  
 
 **[1. Introduction to Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf): Types of Algorithms, Complexity and Iteration vs Recursion**  
