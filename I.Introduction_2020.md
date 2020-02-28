@@ -384,36 +384,9 @@ def RecursiveFibonacci(N):
 ## Enough with this. What about Bioinformatics?
 * What we will be discussing in this class may appear detached from the above but it is _not_ so.
 * Issues like recursion, time complexity and efficiency will matter
-* The way we transform the problem into formal sets of questions is crucial.
+* The way we transform the problem into _formal sets_ of questions is crucial.
 
 ## Some (not so simple) problems
 - Given a long DNA sequence can you locate a given string of characters within it.
 - Can you say how many times it is there, and where?
 - Given two strings of characters can you find the longest common subsequence of a) un-interrupted characters b) characters with gaps c) characters with gaps and also some mismatches?
-
-## Bioinformatics Warm-Up
-1. You are given a DNA sequence
-    * Can you count the number of nucleotides of each of the four bases (A, G, C, T)?
-    * How many calculations will you need?
-    * How will you implement it?
-2. Now consider the same problem only instead of nucleotides we need to count the number of all 8-nucleotides. What do you need to consider to attack the problem?
-
-## Why should you care?
-
-* Bacterial genomes have a particular distribution of nucleotides along their genome
-* The difference of A-T (and G-C) complementary nucleotides goes through a sort of "phase transition" that splits the genome approximately in half.
-* Do you know what this split is?
-* Do you know why it is so?
-
-## Nucleotide Skew Analysis of Bacterial Genomes
-* Given a bacterial genome
-    * Count nucleotides in windows of N base pairs
-    * Calculate the scaled AT-skew as (A-T)/(A+T)
-    * Create an array of the skew values along the genome
-    * Locate the transition point
-
-## Exercises (to think about)
-1. What is the Big-O of Euclid's algorithm?
-2. Euclid's algorithm is slowest for a=Φ(b), that is when a and b are members of the Fibonacci series. Any idea why should that happen?
-3. Find a loop invariant for MergeSort
-4. Write a program that calculates the Chargaff Parity Deviation (for the A,T pair) for a given DNA sequence.
