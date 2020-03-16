@@ -111,7 +111,7 @@ Input: A, B
 
       if (C is greater than 0) {B->A; C->B; goto #}  
 
-      if (C equals 0) {print LCD=C; end}  
+      if (C equals 0) {print LCD=Β; end}  
 ```
 
 ## Writing the damn thing: Programming
