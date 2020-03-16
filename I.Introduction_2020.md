@@ -162,7 +162,7 @@ def rec_euclid(a,b):
         if a%b>0:
         # implement Euclid: b becomes a and mod(a/b) becomes b
             a,b=b,a%b            
-            return(euclid(a,b)) # <---what happens here?
+            return(rec_euclid(a,b)) # <---what happens here?
 ```
 
 ## What does it do?
