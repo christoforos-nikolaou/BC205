@@ -19,3 +19,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
 **[Exercise Set 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md)**:
   Send your reports via e-mail by **March 25th 2019**
+  
+  **[2. Sequence Analysis](https://github.com/christoforos-nikolaou/BC205/blob/master/II.Sequence_Analysis_2020.md): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
+  a. Why Sequence matters
+  b. GC content and Genomic Signatures
+  c. Problems: Locating horizontal gene transfer events in bacteria
+  d. Problems: Locating the origin of replication in a bacterial genome
