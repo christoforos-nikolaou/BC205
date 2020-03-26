@@ -12,30 +12,31 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 ### We will be covering the following topics  
 
 **[1. Introduction to Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/I.Introduction_2020.md): Types of Algorithms, Complexity and Iteration vs Recursion**  
-  a. General Introduction
-  b. Concepts: Iteration vs Recursion
-  c. Methods: Brute Force vs Divide and Conquer Approaches
-  d. Problems: Finding the Largest Common Divisor and Numerical Sort  
+  a. General Introduction  
+  b. Concepts: Iteration vs Recursion  
+  c. Methods: Brute Force vs Divide and Conquer Approaches  
+  d. Problems: Finding the Largest Common Divisor and Numerical Sort    
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md)**:
   Send your reports via e-mail by **March 25th 2020**
   
   **[2. Sequence Analysis](https://github.com/christoforos-nikolaou/BC205/blob/master/II.Sequence_Analysis_2020.md): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
-  a. Why Sequence matters
-  b. GC content and Genomic Signatures
-  c. Problems: Locating horizontal gene transfer events in bacteria
-  d. Problems: Locating the origin of replication in a bacterial genome
+  a. Why Sequence matters  
+  b. GC content and Genomic Signatures  
+  c. Problems: Locating horizontal gene transfer events in bacteria  
+  d. Problems: Locating the origin of replication in a bacterial genome  
   
  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md)**:
   Send your reports via e-mail by **April 6th 2020**
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
-  a. Motif Definition
-  b. Motif Creation
-  c. PWMs and PSSMs
-  d. Motif Detection in Sequences
+  a. Motif Definition  
+  b. Motif Creation  
+  c. PWMs and PSSMs  
+  d. Motif Detection in Sequences  
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
-  a. Motif Discovery Problem
-  b. Gibbs Sampling
-  c. Complementary approaches 
+  a. Motif Discovery Problem  
+  b. Gibbs Sampling  
+  c. Complementary approaches  
+  
