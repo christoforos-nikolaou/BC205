@@ -27,4 +27,16 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Problems: Locating the origin of replication in a bacterial genome
   
  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md)**:
-  Send your reports via e-mail by **April 3rd 2020**
+  Send your reports via e-mail by **April 6th 2020**
+
+  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
+  a. Motif Definition
+  b. Motif Creation
+  c. PWMs and PSSMs
+  d. Motif Detection in Sequences
+   
+  **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences **  
+  
+  a. Motif Discovery Problem
+  b. Gibbs Sampling
+  c. Complementary approaches 
