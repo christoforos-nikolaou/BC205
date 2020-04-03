@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+BC205: Algorithms in Bioinformatics
+Chapter 2: Sequence Analysis (Python Code)
+
 Created on Thu Feb 27 10:23:13 2020
 @author: christoforos
-Chapter 2: Sequence Analysis (Python Code)
 """
 
 #%%
