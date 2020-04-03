@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 BC205: Algorithms in Bioinformatics
-I. Introduction 
+Chapter 1. Introduction (Python Code) 
 
 Created on Thu Feb 27 10:23:13 2020
 
