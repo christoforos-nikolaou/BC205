@@ -34,6 +34,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Motif Creation  
   c. PWMs and PSSMs  
   d. Motif Detection in Sequences  
+  
+  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md)**:
+  Send your reports via e-mail by **April 17th 2020**
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
   a. Motif Discovery Problem  
