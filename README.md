@@ -43,3 +43,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Gibbs Sampling  
   c. Complementary approaches  
   
+  
+   **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
+  a. Sequence Similarity  
+  b. Edit distances
+  c. Sequence Alignment
+  d. Needleman-Wunsch and Smith-Waterman Algorithms
