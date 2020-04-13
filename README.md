@@ -17,7 +17,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Methods: Brute Force vs Divide and Conquer Approaches  
   d. Problems: Finding the Largest Common Divisor and Numerical Sort    
 
-**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md)**:
+**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
   Send your reports via e-mail by **March 25th 2020**
   
   **[2. Sequence Analysis](https://github.com/christoforos-nikolaou/BC205/blob/master/II.Sequence_Analysis_2020.md): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
@@ -26,7 +26,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Problems: Locating horizontal gene transfer events in bacteria  
   d. Problems: Locating the origin of replication in a bacterial genome  
   
- **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md)**:
+ **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
   Send your reports via e-mail by **April 6th 2020**
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
@@ -35,7 +35,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. PWMs and PSSMs  
   d. Motif Detection in Sequences  
   
-  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md)**:
+  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
   Send your reports via e-mail by **April 17th 2020**
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
@@ -43,6 +43,8 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Gibbs Sampling  
   c. Complementary approaches  
   
+  **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
+  Send your reports via e-mail by **April 27th 2020**
   
    **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
   a. Sequence Similarity  
