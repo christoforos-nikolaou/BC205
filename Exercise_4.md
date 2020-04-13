@@ -15,10 +15,10 @@ What you need to do:
     2. Use a free parameter for the size k of the motif you will be searching for   
     3. Repeat the search for various values of k (e.g. from k=3 to k=7)  
 
-** Result 1: Return the discovered motifs as PWMs **
+**Result 1: Return the discovered motifs as PWMs**
 
 #### Part 2  
 
     1. Calculate the Information Content of the discovered PWMs for each k
   
-** Result 2: Report the k and the motif with the greatest (scaled) Information Content **     
+**Result 2: Report the k and the motif with the greatest (scaled) Information Content**     
