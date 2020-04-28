@@ -51,3 +51,12 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Edit distances
   c. Sequence Alignment
   d. Needleman-Wunsch and Smith-Waterman Algorithms
+  
+   **[6. Rapid Sequence Searches](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf):  Quick String-matching algorithms with applications to Genomics**  
+  a. The problem of identical string matching 
+  b. Knuth-Morris-Pratt Algorithm (KMP)  
+  c. Boyer-Moore Algorithm (BM)
+  d. FASTA Algorithm
+  e. BLAST
+  
+  
