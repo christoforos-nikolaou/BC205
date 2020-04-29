@@ -59,4 +59,5 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. FASTA Algorithm
   e. BLAST
   
-  
+  **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
+    Send your reports via e-mail by **May 15th 2020**
