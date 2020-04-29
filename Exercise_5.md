@@ -7,14 +7,14 @@ the Global Alignment of two DNA sequences
 
 For implementation purposes consider the following two sequences:
 
-S1: ATGCACACGTGAGGGACCCCGAT
-S2: ATACACGTACACGTGCACCGTGATGCTCGACTGCAAC
+S1: ATGCACACGTGAGGGACCCCGAT  
+S2: ATACACGTACACGTGCACCGTGATGCTCGACTGCAAC  
 
 And the following scoring scheme:
 
-Match:    +1
-Mismatch:  0
-Gap:      -1
+Match:    +1  
+Mismatch:  0  
+Gap:      -1  
 
 #### You are advised to work in the following way:
 
