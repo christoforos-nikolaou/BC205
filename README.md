@@ -61,3 +61,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   
   **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
     Send your reports via e-mail by **May 15th 2020**
+    
+   **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments**
+  a. Identical string matching for millions of sequences
+  b. Data Transformation Techniques  
+  c. Suffix Trees
+  d. Burrows-Wheeler Transform (BWT)
