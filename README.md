@@ -67,3 +67,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Data Transformation Techniques  
   c. Suffix Trees
   d. Burrows-Wheeler Transform (BWT)
+
+ **[Exercise 6](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
+    Send your reports via e-mail by **May 31st 2020**
+ 
