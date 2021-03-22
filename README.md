@@ -20,7 +20,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
   Send your reports via e-mail by **March 25th 2020**
   
-  **[2. Sequence Analysis](https://github.com/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.ipynb): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
+  **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
   a. Why Sequence matters  
   b. GC content and Genomic Signatures  
   c. Problems: Locating horizontal gene transfer events in bacteria  
