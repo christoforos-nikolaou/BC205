@@ -16,6 +16,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Concepts: Iteration vs Recursion  
   c. Methods: Brute Force vs Divide and Conquer Approaches  
   d. Problems: Finding the Largest Common Divisor and Numerical Sort    
+  
+Notes and code for the lecture can be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.ipynb)
+A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
   Send your reports via e-mail by **April 12th 2021**
