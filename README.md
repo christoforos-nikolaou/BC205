@@ -8,7 +8,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 *web: https://computational-genomics.weebly.com/*  
 *twitter: @guilderstern*  
 
-## 2019-2020 Academic Year
+## 2020-2021 Academic Year
 ### We will be covering the following topics  
 
 **[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  
@@ -18,7 +18,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Problems: Finding the Largest Common Divisor and Numerical Sort    
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
-  Send your reports via e-mail by **March 25th 2020**
+  Send your reports via e-mail by **April 12th 2020**
   
   **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
   a. Why Sequence matters  
@@ -27,7 +27,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Problems: Locating the origin of replication in a bacterial genome  
   
  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
-  Send your reports via e-mail by **April 6th 2020**
+  Send your reports via e-mail by **April 26th 2020**
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
   a. Motif Definition  
