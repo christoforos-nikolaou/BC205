@@ -12,7 +12,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 ### We will be covering the following topics  
 
 
-**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 29th, 2021)
+**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 29th, 2021)  
   a. General Introduction  
   b. Concepts: Iteration vs Recursion  
   c. Methods: Brute Force vs Divide and Conquer Approaches  
@@ -22,7 +22,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
   
-  **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Apr 5th, 2021)
+  **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Apr 5th, 2021)  
   a. Why Sequence matters  
   b. GC content and Genomic Signatures  
   c. Problems: Locating horizontal gene transfer events in bacteria  
