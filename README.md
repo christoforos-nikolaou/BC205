@@ -12,7 +12,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 ### We will be covering the following topics  
 
 
-**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  
+**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 29th, 2021)
   a. General Introduction  
   b. Concepts: Iteration vs Recursion  
   c. Methods: Brute Force vs Divide and Conquer Approaches  
@@ -21,17 +21,19 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 * Notes and code for the lecture can be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.ipynb)  
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
-**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
-  Send your reports via e-mail by **April 12th 2021**
   
-  **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  
+  **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Apr 5th, 2021)
   a. Why Sequence matters  
   b. GC content and Genomic Signatures  
   c. Problems: Locating horizontal gene transfer events in bacteria  
   d. Problems: Locating the origin of replication in a bacterial genome  
-  
- **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
-  Send your reports via e-mail by **April 26th 2021**
+
+**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
+  Send your reports via e-mail by **April 12th 2021**
+
+**[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
+  Send your reports via e-mail by **April 12th 2021**
+
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
   a. Motif Definition  
