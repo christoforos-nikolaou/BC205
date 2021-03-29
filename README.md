@@ -29,10 +29,10 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Problems: Locating the origin of replication in a bacterial genome  
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
-  Send your reports via e-mail by **April 12th 2021**
+  Send your reports via slack by **April 12th 2021**
 
 **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
-  Send your reports via e-mail by **April 12th 2021**
+  Send your reports via slack by **April 12th 2021**
 
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
@@ -42,7 +42,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Motif Detection in Sequences  
   
   **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
-  Send your reports via e-mail by **May 10th 2021**
+  Send your reports via slack by **May 10th 2021**
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
   a. Motif Discovery Problem  
@@ -50,7 +50,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Complementary approaches  
   
   **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
-  Send your reports via e-mail by **May 24th 2021**
+  Send your reports via slack by **May 24th 2021**
   
    **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
   a. Sequence Similarity  
@@ -66,7 +66,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   e. BLAST
   
   **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
-    Send your reports via e-mail by **June 7th 2021**
+    Send your reports via slack by **June 7th 2021**
     
    **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments**
   a. Identical string matching for millions of sequences
@@ -75,7 +75,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Burrows-Wheeler Transform (BWT)
 
  **[Exercise 6](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
-    Send your reports via e-mail by **June 14th 2021**
+    Send your reports via slack by **June 14th 2021**
     
    **[Final Projects](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)**
    Make your choice among a set of suggested projects for the final assessment
