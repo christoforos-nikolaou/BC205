@@ -28,12 +28,8 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Problems: Locating horizontal gene transfer events in bacteria  
   d. Problems: Locating the origin of replication in a bacterial genome  
 
-**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): GC Content**
+**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
   Send your reports via slack by **April 12th 2021**
-
-**[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_2.md): Genomic Signatures**
-  Send your reports via slack by **April 12th 2021**
-
 
   **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection**  
   a. Motif Definition  
@@ -41,7 +37,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. PWMs and PSSMs  
   d. Motif Detection in Sequences  
   
-  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
+  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
   Send your reports via slack by **May 10th 2021**
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
@@ -49,7 +45,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   b. Gibbs Sampling  
   c. Complementary approaches  
   
-  **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
+  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports via slack by **May 24th 2021**
   
    **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
@@ -65,7 +61,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. FASTA Algorithm
   e. BLAST
   
-  **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
+  **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
     Send your reports via slack by **June 7th 2021**
     
    **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments**
@@ -74,7 +70,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Suffix Trees
   d. Burrows-Wheeler Transform (BWT)
 
- **[Exercise 6](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
+ **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
     Send your reports via slack by **June 14th 2021**
     
    **[Final Projects](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)**
