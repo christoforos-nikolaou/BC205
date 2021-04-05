@@ -28,7 +28,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Problems: Locating horizontal gene transfer events in bacteria  
   d. Problems: Locating the origin of replication in a bacterial genome  
 
-* Notes and code for the lecture may be found [here](Chapter_02_Sequence_Analysis.ipynb)
+* Notes and code for the lecture may be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.ipynb)
 * A set of slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf)  
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
