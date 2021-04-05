@@ -38,7 +38,10 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   a. Motif Definition  
   b. Motif Creation  
   c. PWMs and PSSMs  
-  d. Motif Detection in Sequences  
+  d. Evaluating motifs using Entropy and Information Criteria  
+
+  * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
+  * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf) 
   
   **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
   Send your reports via slack by **May 10th 2021**
