@@ -43,16 +43,14 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
   * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf) 
   
-  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_3.md): Origin of Replication**
-  Send your reports via slack by **May 10th 2021**
    
   **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  
   a. Motif Discovery Problem  
   b. Gibbs Sampling  
   c. Complementary approaches  
   
-  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
-  Send your reports via slack by **May 24th 2021**
+  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
+  Send your reports via slack by **May 10th 2021**
   
    **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
   a. Sequence Similarity  
@@ -67,8 +65,8 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. FASTA Algorithm
   e. BLAST
   
-  **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
-    Send your reports via slack by **June 7th 2021**
+  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_5.md): Needleman-Wunsch Global Sequence Alignment** 
+    Send your reports via slack by **May 24th 2021**
     
    **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments**
   a. Identical string matching for millions of sequences
@@ -76,8 +74,8 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Suffix Trees
   d. Burrows-Wheeler Transform (BWT)
 
- **[Exercise 5](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
-    Send your reports via slack by **June 14th 2021**
+ **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
+    Send your reports via slack by **June 7th 2021**
     
    **[Final Projects](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)**
    Make your choice among a set of suggested projects for the final assessment
