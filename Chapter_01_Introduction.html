@@ -9,7 +9,7 @@
 
 
 <style type="text/css">
-    pre { line-height: 125%; }
+    pre { line-height: 125%; margin: 0; }
 td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
 td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -14301,13 +14301,13 @@ a.anchor-link {
 <li>Next-generation Sequencing Analysis (Branch and Bound)</li>
 <li>Biological Networks (Graph Algorithms)</li>
 </ul>
-<h2 id="Some-(Simple)-Problems">Some (Simple) Problems<a class="anchor-link" href="#Some-(Simple)-Problems">&#182;</a></h2><ol>
+<h3 id="Some-(Simple)-Problems">Some (Simple) Problems<a class="anchor-link" href="#Some-(Simple)-Problems">&#182;</a></h3><ol>
 <li>Finding the largest common divisor of two numbers</li>
 <li>Sorting a set of integers</li>
 <li>Calculating the Fibonacci series for up to a number N</li>
 <li>Find the positive root of a quadratic equation</li>
 </ol>
-<h2 id="And-some-not-so-simple-ones">And some not so simple ones<a class="anchor-link" href="#And-some-not-so-simple-ones">&#182;</a></h2><ol>
+<h3 id="And-some-not-so-simple-ones">And some not so simple ones<a class="anchor-link" href="#And-some-not-so-simple-ones">&#182;</a></h3><ol>
 <li>Ηow many TATA-boxes exist in a DNA sequence?</li>
 <li>Where lies the origin of replication in a bacterial genome?</li>
 <li>How similar are two genomic sequences?</li>
@@ -14334,7 +14334,7 @@ a.anchor-link {
 </ul>
 </li>
 </ul>
-<h2 id="A-solution:-Euclid's-Algorithm-for-LCD">A solution: Euclid's Algorithm for LCD<a class="anchor-link" href="#A-solution:-Euclid's-Algorithm-for-LCD">&#182;</a></h2><ul>
+<h3 id="A-solution:-Euclid's-Algorithm-for-LCD">A solution: Euclid's Algorithm for LCD<a class="anchor-link" href="#A-solution:-Euclid's-Algorithm-for-LCD">&#182;</a></h3><ul>
 <li><p>Euclid is said to have proposed an elegant solution.</p>
 </li>
 <li><p>The basis of the solution is both <em>a</em> and <em>b</em> should be able to be represented as products of <em>lcd</em></p>
@@ -14346,14 +14346,14 @@ a.anchor-link {
 <li><p>Through a repetitive process in which <em>a, b</em> are substituted by <em>b, mod(a/b)</em> in each step we stop when <em>mod(a/b)=0</em>, declaring <em>b</em> as the <em>lcd</em>.</p>
 </li>
 </ul>
-<h2 id="Euclid's-Algorithm-(Process)">Euclid's Algorithm (Process)<a class="anchor-link" href="#Euclid's-Algorithm-(Process)">&#182;</a></h2><ol>
+<h3 id="Euclid's-Algorithm-(Process)">Euclid's Algorithm (Process)<a class="anchor-link" href="#Euclid's-Algorithm-(Process)">&#182;</a></h3><ol>
 <li>Start with two numbers a, b (a &gt; b)</li>
 <li>Divide a/b and keep the remainder c</li>
 <li>Now, divide b/c and keep the remainder d</li>
 <li>Repeat the division until there is no remainder</li>
 <li>Report the last divisor as the LCD of a and b.</li>
 </ol>
-<h2 id="Let's-make-it-more-formal.-Pseudocode">Let's make it more formal. Pseudocode<a class="anchor-link" href="#Let's-make-it-more-formal.-Pseudocode">&#182;</a></h2>
+<h3 id="Let's-make-it-more-formal.-Pseudocode">Let's make it more formal. Pseudocode<a class="anchor-link" href="#Let's-make-it-more-formal.-Pseudocode">&#182;</a></h3>
 <pre><code>Input: A, B  
 
     # C=remainder(A/B)  
@@ -14361,11 +14361,11 @@ a.anchor-link {
       if (C is greater than 0) {B-&gt;A; C-&gt;B; goto #}  
 
       if (C equals 0) {print LCD=C; end}</code></pre>
-<h2 id="Writing-the-damn-thing:-Programming">Writing the damn thing: Programming<a class="anchor-link" href="#Writing-the-damn-thing:-Programming">&#182;</a></h2><ul>
+<h3 id="Programming">Programming<a class="anchor-link" href="#Programming">&#182;</a></h3><ul>
 <li>You can choose your language of choice.</li>
 <li>Our focus will not be so much on coding as on the design and the general approach</li>
 </ul>
-<h2 id="LCD-Take#1">LCD Take#1<a class="anchor-link" href="#LCD-Take#1">&#182;</a></h2><p>(Python Implementation)</p>
+<h3 id="LCD-Take#1">LCD Take#1<a class="anchor-link" href="#LCD-Take#1">&#182;</a></h3><p>(Python Implementation)</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14423,7 +14423,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="What-does-it-do?">What does it do?<a class="anchor-link" href="#What-does-it-do?">&#182;</a></h2><p>The solution above goes through a simple (but clever) iteration just as Euclid suggested</p>
+<h3 id="What-does-it-do?">What does it do?<a class="anchor-link" href="#What-does-it-do?">&#182;</a></h3><p>The solution above goes through a simple (but clever) iteration just as Euclid suggested</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14453,7 +14453,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="LCD-Take#2">LCD Take#2<a class="anchor-link" href="#LCD-Take#2">&#182;</a></h2>
+<h3 id="LCD-Take#2">LCD Take#2<a class="anchor-link" href="#LCD-Take#2">&#182;</a></h3>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
@@ -14487,7 +14487,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="What-does-it-do?">What does it do?<a class="anchor-link" href="#What-does-it-do?">&#182;</a></h2><ul>
+<h3 id="What-does-it-do?">What does it do?<a class="anchor-link" href="#What-does-it-do?">&#182;</a></h3><ul>
 <li>The most interesting part is the place where the function calls itself</li>
 </ul>
 
@@ -14515,13 +14515,13 @@ a.anchor-link {
 <li>This is a nice example of <strong>recursion</strong>, a process through which we take advantage of our algorithmic process by <strong>calling it</strong> from within itself.</li>
 <li>While very useful it is not always the best way to proceed (as for instance in this case)</li>
 </ul>
-<h2 id="Iteration-vs-Recursion">Iteration vs Recursion<a class="anchor-link" href="#Iteration-vs-Recursion">&#182;</a></h2><ul>
+<h3 id="Iteration-vs-Recursion">Iteration vs Recursion<a class="anchor-link" href="#Iteration-vs-Recursion">&#182;</a></h3><ul>
 <li>In iteration control is performed by the value of b, while in recursion it is a more general control statement (<em>mod(a/b)&gt;0</em>)</li>
 <li>Infinite iteration means waiting forever but infinite recursion means trouble, so <strong>be careful!</strong></li>
 <li>In many cases (not this one) recursion appears to be more elegant, however iteration is always simpler, easier to follow and with smaller burden on the system</li>
 </ul>
 <h2 id="Case-2:-Sorting-a-series-of-integers">Case 2: Sorting a series of integers<a class="anchor-link" href="#Case-2:-Sorting-a-series-of-integers">&#182;</a></h2><p>Starting with N integers, order them from the smallest to the largest</p>
-<h2 id="Sorting-Take-#1:-Simple-Sort-(Pseudocode)">Sorting Take #1: Simple Sort (Pseudocode)<a class="anchor-link" href="#Sorting-Take-#1:-Simple-Sort-(Pseudocode)">&#182;</a></h2>
+<h3 id="Sorting-Take-#1:-Simple-Sort-(Pseudocode)">Sorting Take #1: Simple Sort (Pseudocode)<a class="anchor-link" href="#Sorting-Take-#1:-Simple-Sort-(Pseudocode)">&#182;</a></h3>
 <pre><code>Input N[i] list of numbers
 Output S[i] list of sorted N
 
@@ -14610,18 +14610,18 @@ return(S)</code></pre>
 </li>
 <li>This means that as N increases, the number of calculations increases by N^2.</li>
 </ul>
-<h2 id="Brute-Force-Approaches">Brute Force Approaches<a class="anchor-link" href="#Brute-Force-Approaches">&#182;</a></h2><ul>
+<h3 id="Brute-Force-Approaches">Brute Force Approaches<a class="anchor-link" href="#Brute-Force-Approaches">&#182;</a></h3><ul>
 <li>SimpleSort belongs to a type of algorithms that are called "Exhaustive" or "Brute Force".</li>
 <li>This means that they proceed with a simple "all out" approach that attacks the problem directly, in the hope that it is not too complex and expecting that the mere "force" of computation can solve it.</li>
 <li>Brute Force approaches work in a satisfactory way if the problem is not very complex.</li>
 <li>However they can be problematic if the problem is not simple as we will see in the following.</li>
 </ul>
-<h2 id="Big-O,-O()-notation">Big-O, O() notation<a class="anchor-link" href="#Big-O,-O()-notation">&#182;</a></h2><ul>
+<h3 id="Big-O,-O()-notation">Big-O, O() notation<a class="anchor-link" href="#Big-O,-O()-notation">&#182;</a></h3><ul>
 <li>O()-notation is a means to express the complexity of an algorithm, in particular the way with which the number of calculation increases with the size of the input</li>
 <li>O() is shown as a function of input size (n) depending on the way processing time scales with n.</li>
 <li>For example SimpleSort is O(n^2) because as we saw it scales with n-quadratic</li>
 </ul>
-<h2 id="Sorting-Take-#2:-MergeSort">Sorting Take #2: MergeSort<a class="anchor-link" href="#Sorting-Take-#2:-MergeSort">&#182;</a></h2><ul>
+<h3 id="Sorting-Take-#2:-MergeSort">Sorting Take #2: MergeSort<a class="anchor-link" href="#Sorting-Take-#2:-MergeSort">&#182;</a></h3><ul>
 <li>Instead of taking each element and checking if it is the smallest in a list of gradually decreasing length, MergeSort implements a different (and faster strategy)</li>
 <li>It starts by <strong>dividing</strong> the list of numbers into two sublists and trying to sort these smaller lists before joining them back to the full list.</li>
 <li>You can imagine consecutive splits that come down to sublists of (N=2) in which the sorting is trivial: We basically need to check which is the greater of two numbers.</li>
@@ -14676,7 +14676,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="MergeSort-(Recursive-Call)">MergeSort (Recursive Call)<a class="anchor-link" href="#MergeSort-(Recursive-Call)">&#182;</a></h2><p>While the following code shows the recursive call we described in the psuedocode above</p>
+<h3 id="MergeSort-(Recursive-Call)">MergeSort (Recursive Call)<a class="anchor-link" href="#MergeSort-(Recursive-Call)">&#182;</a></h3><p>While the following code shows the recursive call we described in the psuedocode above</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14745,7 +14745,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Big-O-Notation-(Merge-Sort)">Big-O Notation (Merge Sort)<a class="anchor-link" href="#Big-O-Notation-(Merge-Sort)">&#182;</a></h2><ul>
+<h3 id="Big-O-Notation-(Merge-Sort)">Big-O Notation (Merge Sort)<a class="anchor-link" href="#Big-O-Notation-(Merge-Sort)">&#182;</a></h3><ul>
 <li><strong>MergeSort</strong>: takes an array of N and splits it in half, then sorts each half by recursive calls of the merge function. Let's break this into the two components:<ul>
 <li>Splitting is done into halves which means that for a list of N, log2(N) splits will be required</li>
 <li>The merging process is done by parsing the elements of A and B lists one at a time, thus for N values it takes O(n) time.  </li>
@@ -14757,7 +14757,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 <li>Question: Which is faster? SimpleSort or MergeSort?</li>
 <li>Question: Can you figure out the time complexity of Euclid's algorithm?</li>
 </ul>
-<h2 id="Divide-and-Conquer-approaches">Divide and Conquer approaches<a class="anchor-link" href="#Divide-and-Conquer-approaches">&#182;</a></h2><ul>
+<h3 id="Divide-and-Conquer-approaches">Divide and Conquer approaches<a class="anchor-link" href="#Divide-and-Conquer-approaches">&#182;</a></h3><ul>
 <li>MergeSort belongs to a different type of approaches that are called "Divide and Conquer"</li>
 <li>Divide and Conquer approaches proceed (as their name implies) by dividing a complex problem into simpler subproblems and solving them either recursively or iteratively (usually the first)</li>
 <li>In many cases they are the only way to go around difficult problems that would require a prohibitive amount of calculations using Brute Force.</li>
@@ -14773,12 +14773,12 @@ The pseudocode below shows how the recursive sorting is done</p>
   etc</code></pre>
 </blockquote>
 <p><em>The problem: Calculate the Fibonacci element number N</em></p>
-<h2 id="Fibonnaci-Take-#1:-Using-an-Array">Fibonnaci Take #1: Using an Array<a class="anchor-link" href="#Fibonnaci-Take-#1:-Using-an-Array">&#182;</a></h2>
+<h3 id="Fibonnaci-Take-#1:-Using-an-Array">Fibonnaci Take #1: Using an Array<a class="anchor-link" href="#Fibonnaci-Take-#1:-Using-an-Array">&#182;</a></h3>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">SimpleFibonacci</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
@@ -14812,7 +14812,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">RecursiveFibonacci</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
@@ -14837,7 +14837,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 
 
 
@@ -14855,7 +14855,7 @@ The pseudocode below shows how the recursive sorting is done</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Fibonacci:-Analysis">Fibonacci: Analysis<a class="anchor-link" href="#Fibonacci:-Analysis">&#182;</a></h2><ul>
+<h3 id="Fibonacci:-Analysis">Fibonacci: Analysis<a class="anchor-link" href="#Fibonacci:-Analysis">&#182;</a></h3><ul>
 <li>Take #1<ul>
 <li>We create an array of length N</li>
 <li>We go through the array calculating the i-th element with a simple addition of i-1, i-2</li>
@@ -14867,31 +14867,51 @@ The pseudocode below shows how the recursive sorting is done</p>
 </ul>
 </li>
 </ul>
-<h2 id="Ask-yourself">Ask yourself<a class="anchor-link" href="#Ask-yourself">&#182;</a></h2><ol>
+<h3 id="Ask-yourself">Ask yourself<a class="anchor-link" href="#Ask-yourself">&#182;</a></h3><ol>
 <li>How does array-Fibonacci scale with N?</li>
 <li>How does recursive-Fibonacci scale with N?</li>
 <li>What is the Big-O notations of the two</li>
 <li>What do you think about recursion now?</li>
 </ol>
-<h2 id="Enough-with-this.-What-about-Bioinformatics?">Enough with this. What about Bioinformatics?<a class="anchor-link" href="#Enough-with-this.-What-about-Bioinformatics?">&#182;</a></h2><ul>
-<li>What we will be discussing in this class may appear detached from the above but it is <em>not</em> so.</li>
-<li>Issues like recursion, time complexity and efficiency will matter</li>
-<li>The way we transform the problem into <em>formal sets</em> of questions is crucial.</li>
-</ul>
-<h2 id="Some-(not-so-simple)-problems">Some (not so simple) problems<a class="anchor-link" href="#Some-(not-so-simple)-problems">&#182;</a></h2><ul>
-<li>Given a long DNA sequence can you locate a given string of characters within it.</li>
-<li>Can you say how many times it is there, and where?</li>
-<li>Given two strings of characters can you find the longest common subsequence of a) un-interrupted characters b) characters with gaps c) characters with gaps and also some mismatches?</li>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Other-cases-of-algorithms">Other cases of algorithms<a class="anchor-link" href="#Other-cases-of-algorithms">&#182;</a></h2><ol>
+<li>Randomized algorithmic approaches</li>
+<li>Using data structures</li>
+</ol>
+<h3 id="Randomized-approaches">Randomized approaches<a class="anchor-link" href="#Randomized-approaches">&#182;</a></h3><p>Sometimes using a random approach to solve a problem is much more efficient than we may think. 
+A nice example to demonstrate this is the calculation of $π$ with a randomized algorithm.</p>
+<p>Imagine the following "experiment":</p>
+<ul>
+<li>Imagine a square with a side of length $\alpha$=1 and</li>
+<li>A circle of radius $\alpha/2$ that is inscribed inside the square</li>
+<li>Now consider a random sample of points $x$,$y$ from the square</li>
+<li>The proportion of points that fall within the circle is equal to the ratio of the two areas $R$ which is a function of $\pi$.</li>
+<li>Design a randomized process that will calculate $\pi$</li>
 </ul>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">success</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">tries</span><span class="o">=</span><span class="mi">1000</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">tries</span><span class="p">):</span>
+    <span class="c1"># drawing point</span>
+    <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span><span class="o">=</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">(),</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">())</span>
+    <span class="c1"># checking if x,y are part of the circle</span>
+    <span class="n">d</span><span class="o">=</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mf">0.5</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="nb">abs</span><span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="mf">0.5</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">d</span> <span class="o">&lt;=</span> <span class="mf">0.5</span><span class="p">):</span>
+        <span class="n">success</span><span class="o">=</span><span class="n">success</span><span class="o">+</span><span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">success</span><span class="o">/</span><span class="n">tries</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14899,6 +14919,117 @@ The pseudocode below shows how the recursive sorting is done</p>
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>3.1405344
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Data-structures">Data structures<a class="anchor-link" href="#Data-structures">&#182;</a></h3><p>Data structures (tables, networks, trees etc) go beyond simple entities in programming. The choice of the correct data structure can be crucial into solving a problem.
+A nice example may be found in simple question regarding multiplicity. For instance consider the following question:</p>
+<ul>
+<li>Given a set of dates corresponding to the birthdays of all employees in a company</li>
+<li>Find the date on which most birthdays occur with the fastest possible way</li>
+</ul>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">employees</span><span class="o">=</span><span class="mi">5000</span>
+<span class="n">random_dates</span><span class="o">=</span><span class="p">[]</span>
+
+<span class="n">start_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">end_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2020</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">employees</span><span class="p">):</span>
+    <span class="n">time_between_dates</span> <span class="o">=</span> <span class="n">end_date</span> <span class="o">-</span> <span class="n">start_date</span>
+    <span class="n">days_between_dates</span> <span class="o">=</span> <span class="n">time_between_dates</span><span class="o">.</span><span class="n">days</span>
+    <span class="n">random_number_of_days</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">days_between_dates</span><span class="p">)</span>
+    <span class="n">random_date</span> <span class="o">=</span> <span class="n">start_date</span> <span class="o">+</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">random_number_of_days</span><span class="p">)</span>
+    <span class="n">random_dates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">random_date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%b </span><span class="si">%d</span><span class="s2">&quot;</span><span class="p">))</span>
+
+<span class="n">bday</span><span class="o">=</span><span class="p">{}</span>    
+<span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="n">random_dates</span><span class="p">:</span>
+    <span class="n">bday</span><span class="p">[</span><span class="n">day</span><span class="p">]</span><span class="o">=</span><span class="n">random_dates</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">day</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_key</span><span class="p">(</span><span class="n">dictionary</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+         <span class="k">if</span> <span class="n">val</span> <span class="o">==</span> <span class="n">value</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">key</span>
+    <span class="k">return</span> <span class="s2">&quot;key doesn&#39;t exist&quot;</span>
+    
+<span class="n">mostbdays</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="n">bday</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The date with most birthdays is:&quot;</span><span class="p">,</span> <span class="n">get_key</span><span class="p">(</span><span class="n">bday</span><span class="p">,</span> <span class="n">mostbdays</span><span class="p">),</span> <span class="s2">&quot;.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">mostbdays</span><span class="p">,</span> <span class="s2">&quot;employees have their bday.&quot;</span><span class="p">)</span>
+    
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The date with most birthdays is: Feb 01 ,
+ 27 employees have their bday.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Enough-with-this.-What-about-Bioinformatics?">Enough with this. What about Bioinformatics?<a class="anchor-link" href="#Enough-with-this.-What-about-Bioinformatics?">&#182;</a></h2><ul>
+<li>What we will be discussing in this class may appear detached from the above but it is <em>not</em> so.</li>
+<li>Issues like recursion, time complexity and efficiency will matter</li>
+<li>The way we transform the problem into <em>formal sets</em> of questions is crucial.</li>
+</ul>
+<h3 id="Some-(not-so-simple)-problems">Some (not so simple) problems<a class="anchor-link" href="#Some-(not-so-simple)-problems">&#182;</a></h3><ul>
+<li>Given a long DNA sequence can you locate a given string of characters within it.</li>
+<li>Can you say how many times it is there, and where?</li>
+<li>Given two strings of characters can you find the longest common subsequence of a) un-interrupted characters b) characters with gaps c) characters with gaps and also some mismatches?</li>
+</ul>
+
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">

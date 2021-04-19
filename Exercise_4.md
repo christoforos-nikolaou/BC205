@@ -1,6 +1,6 @@
 # BC205: Algorithms for Bioinformatics.
 
-## Exercise IV. Discovering and Evaluating hidden motifs in Sequences
+## Exercise II. Discovering and Evaluating hidden motifs in Sequences
 
 For your second exercise you will need to implement the Gibbs Sampler for motif discovery in the language of your choice. 
 
