@@ -34,7 +34,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
   Send your reports via slack by **April 12th 2021**
 
-  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 12th, 2021) 
+  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 12th, 2021)  
   a. Motif Definition  
   b. Motif Creation  
   c. PWMs and PSSMs  
