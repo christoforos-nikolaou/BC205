@@ -52,7 +52,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports via slack by **May 10th 2021**
   
-   **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (April 26th, 2021)
+   **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (April 26th, 2021)  
   a. Sequence Similarity  
   b. Edit distances  
   c. Sequence Alignment  
