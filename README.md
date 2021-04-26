@@ -52,11 +52,11 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports via slack by **May 10th 2021**
   
-   **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  
+   **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (April 26th, 2021)
   a. Sequence Similarity  
-  b. Edit distances
-  c. Sequence Alignment
-  d. Needleman-Wunsch and Smith-Waterman Algorithms
+  b. Edit distances  
+  c. Sequence Alignment  
+  d. Needleman-Wunsch and Smith-Waterman Algorithms  
   
    **[6. Rapid Sequence Searches](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf):  Quick String-matching algorithms with applications to Genomics**  
   a. The problem of identical string matching 
