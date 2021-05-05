@@ -34,7 +34,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
   Send your reports via slack by **April 12th 2021**
 
-  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 12th, 2021) 
+  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 12th, 2021)  
   a. Motif Definition  
   b. Motif Creation  
   c. PWMs and PSSMs  
@@ -44,7 +44,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf) 
   
    
-  **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences**  (April 19th, 2021)
+  **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences** (April 19th, 2021)    
   a. Motif Discovery Problem  
   b. Gibbs Sampling  
   c. Complementary approaches  
@@ -60,7 +60,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
    * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf) 
   
-   **[6. Rapid Sequence Searches](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf):  Quick String-matching algorithms with applications to Genomics**  
+   **[6. Rapid Sequence Searches](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf):  Quick String-matching algorithms with applications to Genomics**  (May 10th, 2021)
   a. The problem of identical string matching 
   b. Knuth-Morris-Pratt Algorithm (KMP)  (in brief)
   c. Boyer-Moore Algorithm (BM) (in brief)
