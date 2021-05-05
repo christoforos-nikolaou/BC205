@@ -11,8 +11,12 @@ For implementation purposes you should consider the following:
 2. Choose a sequence from the database at random. 
 3. Modify the chosen sequence with a limited number of substitutions, insertions or deletions but **not rearrangements**.
 4. Implement a simplified version of the FastA algorithm using:
-   a. a simple score of +1/0 for word matches/mismatches
-   b. k=10 as the length of the matched word
-   c. n=20 as the number of the n highest scoring pairs
-   d. g=5 as the maximum gap size before joining regions, accounting for a gap penalty of -1 for each gapped nucleotid 
+   a. a simple score of +1/0 for word matches/mismatches  
+
+   b. k=10 as the length of the matched word  
+
+   c. n=20 as the number of the n highest scoring pairs  
+
+   d. g=5 as the maximum gap size before joining regions, accounting for a gap penalty of -1 for each gapped nucleotide  
+   
    e. Final outputs will consist of the the simple joined sequences with scores equalling the sum of scores (including gap penalties)  
