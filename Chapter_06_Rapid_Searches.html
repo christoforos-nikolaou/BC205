@@ -14961,9 +14961,107 @@ Pattern occur at shift = 17
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="&#913;pproaches-that-employ-transformation-of-the-sequence">&#913;pproaches that employ transformation of the sequence<a class="anchor-link" href="#&#913;pproaches-that-employ-transformation-of-the-sequence">&#182;</a></h3><ol>
-<li>Z-array transformation</li>
+<li>Z-array transformation\
+In the Z-array transformation the whole sequence (to be searched) and the pattern (query) are joined and separated by a single-time-occurring character (e.g. '$'), like so:</li>
+</ol>
+<p>pattern = 'abba'
+sequence = 'abraidontlikeabbailikethebeatles'</p>
+<p>So the whole string becomes
+string = 'abba$abraidontlikeabbailikethebeatles'</p>
+<p>The Z-array is then created in the following way. For each position in string, $string[i]$, $Z[i]$ is set as equal to the length of the longest substring starting from $[i]$ that is also a prefix of the whole string. In this way, any position in the Z-array with a score $Z[i]$ equal to the length of the  pattern, constitutes an identical match.</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Z algorithm for pattern searching</span>
+  
+<span class="c1"># Fills Z array for given string str[]</span>
+<span class="k">def</span> <span class="nf">getZarr</span><span class="p">(</span><span class="n">string</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">string</span><span class="p">)</span>
+  
+    <span class="c1"># [L,R] make a window which matches</span>
+    <span class="c1"># with prefix of s</span>
+    <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+  
+        <span class="c1"># if i&gt;R nothing matches so we will calculate.</span>
+        <span class="c1"># Z[i] using naive way.</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="n">r</span><span class="p">:</span>
+            <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">i</span><span class="p">,</span> <span class="n">i</span>
+  
+            <span class="c1"># R-L = 0 in starting, so it will start</span>
+            <span class="c1"># checking from 0&#39;th index. For example,</span>
+            <span class="c1"># for &quot;ababab&quot; and i = 1, the value of R</span>
+            <span class="c1"># remains 0 and Z[i] becomes 0. For string</span>
+            <span class="c1"># &quot;aaaaaa&quot; and i = 1, Z[i] and R become 5</span>
+            <span class="k">while</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">string</span><span class="p">[</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span><span class="p">]</span> <span class="o">==</span> <span class="n">string</span><span class="p">[</span><span class="n">r</span><span class="p">]:</span>
+                <span class="n">r</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">r</span> <span class="o">-</span> <span class="n">l</span>
+            <span class="n">r</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+  
+            <span class="c1"># k = i-L so k corresponds to number which</span>
+            <span class="c1"># matches in [L,R] interval.</span>
+            <span class="n">k</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="n">l</span>
+  
+            <span class="c1"># if Z[k] is less than remaining interval</span>
+            <span class="c1"># then Z[i] will be equal to Z[k].</span>
+            <span class="c1"># For example, str = &quot;ababab&quot;, i = 3, R = 5</span>
+            <span class="c1"># and L = 2</span>
+            <span class="k">if</span> <span class="n">z</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">r</span> <span class="o">-</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">z</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+  
+            <span class="c1"># For example str = &quot;aaaaaa&quot; and i = 2, </span>
+            <span class="c1"># R is 5, L is 0</span>
+            <span class="k">else</span><span class="p">:</span>
+  
+                <span class="c1"># else start from R and check manually</span>
+                <span class="n">l</span> <span class="o">=</span> <span class="n">i</span>
+                <span class="k">while</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">string</span><span class="p">[</span><span class="n">r</span> <span class="o">-</span> <span class="n">l</span><span class="p">]</span> <span class="o">==</span> <span class="n">string</span><span class="p">[</span><span class="n">r</span><span class="p">]:</span>
+                    <span class="n">r</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">r</span> <span class="o">-</span> <span class="n">l</span>
+                <span class="n">r</span> <span class="o">-=</span> <span class="mi">1</span>
+  
+<span class="c1"># prints all occurrences of pattern </span>
+<span class="c1"># in text using Z algo</span>
+<span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">pattern</span><span class="p">):</span>
+  
+    <span class="c1"># Create concatenated string &quot;P$T&quot;</span>
+    <span class="n">concat</span> <span class="o">=</span> <span class="n">pattern</span> <span class="o">+</span> <span class="s2">&quot;$&quot;</span> <span class="o">+</span> <span class="n">text</span>
+    <span class="n">l</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">concat</span><span class="p">)</span>
+  
+    <span class="c1"># Construct Z array</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">l</span>
+    <span class="n">getZarr</span><span class="p">(</span><span class="n">concat</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+  
+    <span class="c1"># now looping through Z array for matching condition</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
+  
+        <span class="c1"># if Z[i] (matched region) is equal to pattern</span>
+        <span class="c1"># length we got the pattern</span>
+        <span class="k">if</span> <span class="n">z</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">pattern</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pattern found at index&quot;</span><span class="p">,</span> 
+                      <span class="n">i</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
 <li>Rabin-Karp Algorithm</li>
 </ol>
+<p>The Rabin Karp Algorithm also acts on the whole sequence and the pattern. It uses a hashing strategy to assign a numerical value to every position in the sequence and the pattern. Then it only starts to match the pattern with positions in the sequence that start with the same hashing value. 
+As numerical comparison is faster than string comparison the whole process is sped up.</p>
+<p>The problems comes with the hashing strategy. First the hashing function needs to be carefully defined so that is creates a broad range of values to avoid spurious hits. The other is that it needs to be a <strong>rolling hash function</strong>, meaning one that can update values on the go.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
