@@ -64,11 +64,11 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
   a. The problem of identical string matching
   b. Approaches that modify the pattern   
-    1. Knuth-Morris-Pratt Algorithm (KMP)  
-    2. Boyer-Moore Algorithm (BM)  
+    * Knuth-Morris-Pratt Algorithm (KMP)  
+    * Boyer-Moore Algorithm (BM)  
   c. Approaches that modify the pattern and the sequence  
-    1. Z-Array transformation  
-    2. Rabin-Karp     
+    * Z-Array transformation  
+    * Rabin-Karp Algorithm  
   d. FASTA Algorithm  
   e. BLAST  
   
