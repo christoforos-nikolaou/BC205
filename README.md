@@ -62,11 +62,11 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   
    **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 10th, 2021)  
 
-  a. The problem of identical string matching
-  b. Approaches that modify the pattern (Knuth-Morris-Pratt Algorithm (KMP), Boyer-Moore Algorithm (BM))
-  c. Approaches that modify the pattern and the sequence (Z-Array transformation, Rabin-Karp Algorithm)
-  d. FASTA Algorithm  
-  e. BLAST  
+  a. The problem of identical string matching  
+  b. Approaches that modify the pattern (Knuth-Morris-Pratt Algorithm (KMP), Boyer-Moore Algorithm (BM))  
+  c. Approaches that modify the pattern and the sequence (Z-Array transformation, Rabin-Karp Algorithm)  
+  d. FASTA Algorithm    
+  e. BLAST    
   
   * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf) 
   * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf)
