@@ -7,7 +7,7 @@ You will be asked to implement the a simplified version of the FastA algorithm.
 
 For implementation purposes you should consider the following:
 
-1. Take the query sequence that you will find in this [link]() to search it against:
+1. Take the query sequence that you will find in this [link](https://github.com/christoforos-nikolaou/BC205/blob/master/query.fa) to search it against:
 2. A set of sequences that contains the total number of coding (gene) sequences of _S. cerevisiae_ that you may find [here](https://www.dropbox.com/s/ilokqlhvez6tvga/all_yeast_genes_minplus1k.fa).
 3. You are asked to implement a simplified version of the FastA algorithm using:  
    
@@ -21,4 +21,6 @@ For implementation purposes you should consider the following:
    
    e. a total score of 50% of the length of the query sequence
 
-   e. Final outputs will consist of a list of matched sequences that fulfill the above criteria alongside with their Total Scores 
+   e. Final outputs will consist of a list of matched sequences that fulfill the above criteria alongside with their Total Scores.
+   
+   f. Report the highest matching sequence. Which gene does it correspond to?
