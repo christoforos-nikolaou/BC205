@@ -22,4 +22,4 @@ For implementation purposes you should consider the following:
    
    e. a total score of 50% of the length of the query sequence
 
-   e. Final outputs will consist of the the simple joined sequences with scores equalling the sum of scores (including gap penalties)  
+   e. Final outputs will consist of the the simple joined sequences with scores equalling the sum of scores 
