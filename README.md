@@ -75,8 +75,8 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm** 
     Send your reports via slack by **May 24th 2021**
     
-   **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments**  
-   
+   **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 17th, 2021)   
+      
   a. Identical string matching for millions of sequences  
   b. Data Transformation Techniques    
   c. Suffix Trees  
