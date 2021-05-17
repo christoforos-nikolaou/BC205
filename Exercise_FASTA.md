@@ -18,6 +18,8 @@ For implementation purposes you should consider the following:
 
    c. n=20 as the number of the n highest scoring pairs  
 
-   d. g=5 as the maximum gap size before joining regions, accounting for a gap penalty of -1 for each gapped nucleotide  
+   d. g=5 as the maximum gap size before joining regions
+   
+   e. a total score of 50% of the length of the query sequence
 
    e. Final outputs will consist of the the simple joined sequences with scores equalling the sum of scores (including gap penalties)  
