@@ -60,7 +60,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
    * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf) 
   
-   **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 10th, 2021)  
+   **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 10th - May 17th, 2021)  
 
   a. The problem of identical string matching  
   b. Approaches that modify the pattern (Knuth-Morris-Pratt Algorithm (KMP), Boyer-Moore Algorithm (BM))  
@@ -73,9 +73,9 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   
 
   **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm** 
-    Send your reports via slack by **May 24th 2021**
+    Send your reports via slack by **May 31st 2021**
     
-   **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 17th, 2021)   
+   **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 24th, 2021)   
       
   a. Identical string matching for millions of sequences  
   b. Data Transformation Techniques    
