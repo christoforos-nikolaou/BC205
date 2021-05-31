@@ -82,20 +82,18 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   c. Suffix Trees  
   d. Burrows-Wheeler Transform (BWT)  
 
-
   **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
     Send your reports via slack by **June 7th 2021**
 
-   **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data**
-  a. Working with genome coordinates
-  b. Coordinate overlaps
-  c. Smallest distance of genomic segments
-
-   **[9. Network Algorithms]() Analyzing biological data as networks**
-  a. Working with genome coordinates
-  b. Coordinate overlaps
-  c. Smallest distance of genomic segments
-    
-   **[10. Final Projects](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)**
+   **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 31st, 2021)   
+  a. Working with genome coordinates  
+  b. Coordinate overlaps  
+  c. Smallest distance of genomic segments  
+  Find a detailed tutorial for BedTools [here](https://bedtools.readthedocs.io/en/latest/content/overview.html)  
+  A recording of the lecture on BedTools may be found [here](https://www.dropbox.com/s/2pzaezejbh19153/BedTools_31052021.mp4)  
+  
+  **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
+      
+   **[9. Final Projects](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7th, 2021)
    Make your choice among a set of suggested projects for the final assessment
  
