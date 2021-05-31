@@ -15,7 +15,7 @@ For implementation purposes you should consider the following:
 
    b. k=5 as the length of the matched word 
 
-   c. m=20 as the size of matched diagonals ($S[i]$) that you will keep in each search  
+   c. m=20 as the size of matched diagonals (S[i]) that you will keep in each search  
 
    d. g=3 as the maximum gap size before joining regions
    
