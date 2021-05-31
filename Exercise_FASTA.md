@@ -11,11 +11,11 @@ For implementation purposes you should consider the following:
 2. A set of sequences that contains the total number of coding (gene) sequences of _S. cerevisiae_ that you may find [here](https://www.dropbox.com/s/ilokqlhvez6tvga/all_yeast_genes_minplus1k.fa).
 3. You are asked to implement a simplified version of the FastA algorithm using:  
    
-   a. a simple score of +1/0 for word matches/mismatches. This means that $S[i]$ will be incremmented by +1 each time a k-mer is found.  
+   a. a simple score of +1/0 for word matches/mismatches. This means that _S[i]_ will be incremmented by +1 each time a k-mer is found.  
 
    b. k=5 as the length of the matched word 
 
-   c. m=20 as the size of matched diagonals (S[i]) that you will keep in each search  
+   c. m=20 as the size of matched diagonals (_S[i]_) that you will keep in each search  
 
    d. g=3 as the maximum gap size before joining regions
    
