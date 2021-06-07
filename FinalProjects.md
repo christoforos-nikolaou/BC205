@@ -9,9 +9,9 @@ One last thing I would like to suggest is that the final projects are **presente
 * The list (items still being added)
 
 1. **Alignment-free pairwise sequence similarity using k-mer frequencies**. The project will build on approaches such as FASTA and will attempt to provide similar results to a NW alignment. 
-2. **Identification of SLiMs in Viral genomes** 
-3. **Linear-time Sequence searches on Suffix trees.** 
-4. **Markov State Modeling (or topics related to Markov Chains and Hidden Markov Models)**. 
+2. **Identification of SLiMs in Viral genomes** [Not available]
+3. **Linear-time Sequence searches on Suffix trees.** [Not available]
+4. **Markov State Modeling (or topics related to Markov Chains and Hidden Markov Models)**. [Not available]
 5. **Comparing genome segmentations**. The idea here is to propose ways to quantitatively compare two (or more) different segmentations of a linear series (such as genomes or chromosomes). You will start by assuming that the same genome is split in different ways into "states", e.g. A-A-B-B-B-A vs A-A-A-A-B-B. You should find a way to calculate how similar the two patterns are. 
 6. **Optimal RNA folding algorithm**. Given a single-stranded RNA sequence and assuming nucleotides pair as A:U and G:C find a way to define the maximum number of pairings between them.
 7. **Network algorithms**. Finding the shortest path between two elements in a biological network. 
