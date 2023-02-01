@@ -44,7 +44,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf) 
   
    
-  **[4. Sequence Motifs. ΙI](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_MotifDiscovery_beamer.pdf): Motif Discovery from Sequences** (Mar 22, 2023)    
+  **[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Mar 22, 2023)    
   a. Motif Discovery Problem  
   b. Gibbs Sampling  
   c. Complementary approaches  
