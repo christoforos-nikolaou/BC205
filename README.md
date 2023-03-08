@@ -13,13 +13,13 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
 ### We will be covering the following topics
 
-**[1. Introduction to Algorithms](https://htmlpreview.github.io/?https://github.com/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 8, 2023)  
+**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 8, 2023)  
   a. General Introduction  
   b. Concepts: Iteration vs Recursion  
   c. Methods: Brute Force vs Divide and Conquer Approaches  
   d. Problems: Finding the Largest Common Divisor and Numerical Sort  
 
-* Notes and code for the lecture can be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.ipynb)
+* Notes and code for the lecture can be found [here](https://htmlpreview.github.io/?https://github.com/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
 **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Mar 15, 2023)  
