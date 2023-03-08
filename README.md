@@ -14,31 +14,31 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 ### We will be covering the following topics
 
 **[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 8, 2023)  
-  a. General Introduction
-  b. Concepts: Iteration vs Recursion
-  c. Methods: Brute Force vs Divide and Conquer Approaches
-  d. Problems: Finding the Largest Common Divisor and Numerical Sort
+  a. General Introduction  
+  b. Concepts: Iteration vs Recursion  
+  c. Methods: Brute Force vs Divide and Conquer Approaches  
+  d. Problems: Finding the Largest Common Divisor and Numerical Sort  
 
 * Notes and code for the lecture can be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.ipynb)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
-**[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Mar 15, 2023)
-  a. Why Sequence matters
-  b. GC content and Genomic Signatures
-  c. Problems: Locating horizontal gene transfer events in bacteria
-  d. Problems: Locating the origin of replication in a bacterial genome
-
+**[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Mar 15, 2023)  
+  a. Why Sequence matters  
+  b. GC content and Genomic Signatures  
+  c. Problems: Locating horizontal gene transfer events in bacteria  
+  d. Problems: Locating the origin of replication in a bacterial genome  
+  
 * Notes and code for the lecture may be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.ipynb)
 * A set of slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf)
 
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
   Send your reports by **Mar 31, 2023**
 
-  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 22, 2023)
-  a. Motif Definition
-  b. Motif Creation
-  c. PWMs and PSSMs
-  d. Evaluating motifs using Entropy and Information Criteria
+  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 22, 2023)  
+  a. Motif Definition  
+  b. Motif Creation  
+  c. PWMs and PSSMs  
+  d. Evaluating motifs using Entropy and Information Criteria  
 
 * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
 * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf)
