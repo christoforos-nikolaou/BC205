@@ -5,9 +5,9 @@
 This is the git repository on the Course on Algorithms in Bioinformatics (BC205) which forms part of the Program of the Masters in Bionformatics at the University of Crete
 
 **Contact Details**
-*Christoforos Nikolaou: cnikolaou@fleming.gr*
-*web: https://computational-genomics.weebly.com/*
-*twitter: @guilderstern*
+*Christoforos Nikolaou: cnikolaou@fleming.gr*  
+*web: https://computational-genomics.weebly.com/*  
+*twitter: @guilderstern*  
 
 ## 2022-2023 Academic Year (March-June 2023)
 
