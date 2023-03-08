@@ -20,6 +20,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
   d. Problems: Finding the Largest Common Divisor and Numerical Sort
 
 * Notes and code for the lecture can be found [here](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.ipynb)
+* Notes and code for the lecture can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
 **[2. Sequence Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html): Introduction to Bioinformatics Problems. Sequence Composition Analysis**  (Mar 15, 2023)
