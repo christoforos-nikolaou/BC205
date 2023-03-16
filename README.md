@@ -13,7 +13,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
 ### We will be covering the following topics
 
-**[1. Introduction to Algorithms](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 8 and Mar 15, 2023)  
+**[1. Introduction to Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/f0fb8b51151f3c717e5cbb3dc6294077f2e6003a/Chapter_01_Introduction.pdf): Types of Algorithms, Complexity and Iteration vs Recursion**  (Mar 8 and Mar 15, 2023)  
   a. General Introduction  
   b. Concepts: Iteration vs Recursion  
   c. Methods: Brute Force vs Divide and Conquer Approaches  
