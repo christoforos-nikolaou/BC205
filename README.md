@@ -18,7 +18,11 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 * Notes and code for the lecture in **pdf** can be found [here](Chapter_01_Introduction.pdf)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
 
-**[2. Biological Sequence Analysis: Introduction to Bioinformatics Problems. Sequence Composition Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html)**  (Mar 22, 2023)  a. Why Sequence matters  b. GC content and Genomic Signatures  c. Problems: Locating horizontal gene transfer events in bacteria  d. Problems: Locating the origin of replication in a bacterial genome
+**[2. Biological Sequence Analysis: Introduction to Bioinformatics Problems. Sequence Composition Analysis](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_02_Sequence_Analysis.html)**  (Mar 22, 2023)  
+a. Why Sequence matters  
+b. GC content and Genomic Signatures  
+c. Problems: Locating horizontal gene transfer events in bacteria  
+d. Problems: Locating the origin of replication in a bacterial genome
 
 * Notes and code for the lecture may be found [here](Chapter_02_Sequence_Analysis.pdf)
 * A set of (somewhat obsolete) slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf) 
