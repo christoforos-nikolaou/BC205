@@ -30,61 +30,65 @@ d. Problems: Locating the origin of replication in a bacterial genome
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
   Send your reports by **Mar 31, 2023**
 
-  **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  a. Motif Definition  b. Motif Creation  c. PWMs and PSSMs  d. Evaluating motifs using Entropy and Information Criteria
+**[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  a. Motif Definition  b. Motif Creation  c. PWMs and PSSMs  d. Evaluating motifs using Entropy and Information Criteria
 
 * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
 * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf)
 
-  **[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Apr 5, 2023)
+**[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Apr 5, 2023)
   a. Motif Discovery Problem
   b. Gibbs Sampling
   c. Complementary approaches
 
-  **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
+**[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports by **Apr 14, 2023**
 
-  **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)
+**[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)
   a. Sequence Similarity
   b. Edit distances
   c. Sequence Alignment
   d. Needleman-Wunsch and Smith-Waterman Algorithms
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 
-  **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 3, 2023)
+**[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 3, 2023)
 
-  a. The problem of identical string matching  b. Approaches that modify the pattern (Knuth-Morris-Pratt Algorithm (KMP), Boyer-Moore Algorithm (BM))  c. Approaches that modify the pattern and the sequence (Z-Array transformation, Rabin-Karp Algorithm)  d. FASTA Algorithm  e. BLAST
+  a. The problem of identical string matching  
+  b. Approaches that modify the pattern (Knuth-Morris-Pratt Algorithm (KMP), Boyer-Moore Algorithm (BM))  
+  c. Approaches that modify the pattern and the sequence (Z-Array transformation, Rabin-Karp Algorithm)  
+  d. FASTA Algorithm  
+  e. BLAST
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf)
 
-  **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm**
+**[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm**
   Send your reports by **May 12, 2023**
 
-  **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 10, 2023)
+**[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 10, 2023)
 
   a. Identical string matching for millions of sequences
   b. Data Transformation Techniques
   c. Suffix Trees
   d. Burrows-Wheeler Transform (BWT)
 
-  **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
+**[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**
   Send your reports by **May 26, 2023**
 
-  **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 17, 2023)
+**[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 17, 2023)
   a. Working with genome coordinates
   b. Coordinate overlaps
   c. Smallest distance of genomic segments
   Find a detailed tutorial for BedTools [here](https://bedtools.readthedocs.io/en/latest/content/overview.html)
   A recording of the lecture on BedTools may be found [here](https://www.dropbox.com/s/2pzaezejbh19153/BedTools_31052021.mp4)
 
-  **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
+**[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
-  **[9. Networks]() Introduction to Networks, Statistical and Topological Properties** (May 24, 2023)
+**[9. Networks]() Introduction to Networks, Statistical and Topological Properties** (May 24, 2023)
   a. Introduction. Why are networks important?
   b. Network topology
   c. Statistical Properties of Networks
 
-  **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
+**[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
-  **[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (May 31, 2023)
+**[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (May 31, 2023)
 
-  **[11. Final Projects. Part II. Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7, 2023)
+**[11. Final Projects. Part II. Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7, 2023)
