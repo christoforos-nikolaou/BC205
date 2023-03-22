@@ -27,8 +27,8 @@ d. Problems: Locating the origin of replication in a bacterial genome
 * Notes and code for the lecture may be found [here](Chapter_02_Sequence_Analysis.pdf)
 * A set of (somewhat obsolete) slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf) 
 
-**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction to Sequence Analysis**
-  Send your reports by **Mar 31, 2023**
+**[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction and Sequence Analysis**
+  Send your reports by **April 7, 2023**
 
 **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  a. Motif Definition  b. Motif Creation  c. PWMs and PSSMs  d. Evaluating motifs using Entropy and Information Criteria
 
