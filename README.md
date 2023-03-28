@@ -40,9 +40,10 @@ d. Evaluating motifs using Entropy and Information Criteria
 * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf)
 
 **[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Apr 5, 2023)
-  a. Motif Discovery Problem
-  b. Gibbs Sampling
-  c. Complementary approaches
+  a. Motif Discovery Problem  
+  b. Gibbs Sampling  
+  c. Complementary approaches  
+  
 
 **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports by **Apr 14, 2023**
