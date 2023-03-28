@@ -30,24 +30,29 @@ d. Problems: Locating the origin of replication in a bacterial genome
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction and Sequence Analysis**
   Send your reports by **April 7, 2023**
 
-**[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  a. Motif Definition  b. Motif Creation  c. PWMs and PSSMs  d. Evaluating motifs using Entropy and Information Criteria
+**[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  
+a. Motif Definition  
+b. Motif Creation  
+c. PWMs and PSSMs  
+d. Evaluating motifs using Entropy and Information Criteria
 
 * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
 * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf)
 
-**[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Apr 5, 2023)
-  a. Motif Discovery Problem
-  b. Gibbs Sampling
-  c. Complementary approaches
+**[4. Sequence Motifs. ΙI](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_04_Motif_Discovery.html): Motif Discovery from Sequences** (Apr 5, 2023)  
+  a. Motif Discovery Problem  
+  b. Gibbs Sampling  
+  c. Complementary approaches  
+  
 
 **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports by **Apr 14, 2023**
 
 **[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)
-  a. Sequence Similarity
-  b. Edit distances
-  c. Sequence Alignment
-  d. Needleman-Wunsch and Smith-Waterman Algorithms
+  a. Sequence Similarity  
+  b. Edit distances  
+  c. Sequence Alignment  
+  d. Needleman-Wunsch and Smith-Waterman Algorithms  
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 
 **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 3, 2023)
