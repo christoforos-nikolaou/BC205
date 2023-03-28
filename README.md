@@ -30,7 +30,11 @@ d. Problems: Locating the origin of replication in a bacterial genome
 **[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction and Sequence Analysis**
   Send your reports by **April 7, 2023**
 
-**[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  a. Motif Definition  b. Motif Creation  c. PWMs and PSSMs  d. Evaluating motifs using Entropy and Information Criteria
+**[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Mar 29, 2023)  
+a. Motif Definition  
+b. Motif Creation  
+c. PWMs and PSSMs  
+d. Evaluating motifs using Entropy and Information Criteria
 
 * Slides for the lecture (in greek) may be found [here](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fwjs5bcf6vdrn0np%2Fcb_2016_lecture_03_motifs.pdf&sa=D&sntz=1&usg=AFQjCNEkOMAe5b213ffV8k3GniGQvI-8tA)
 * A book chapter (in greek) on Motifs and their Description may be found [here](https://repository.kallipos.gr/bitstream/11419/1581/1/Chapter03_seqmotifs_R.pdf)
