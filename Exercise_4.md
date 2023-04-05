@@ -11,7 +11,7 @@ What you need to do:
 
 #### Part 1  
 
-    1. Implement the Gibbs Sampler in the language of your choice   
+    1. Implement the Gibbs Sampler in Python  
     2. Use a free parameter for the size k of the motif you will be searching for   
     3. Repeat the search for various values of k (e.g. from k=3 to k=7)  
 
