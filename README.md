@@ -48,11 +48,12 @@ d. Evaluating motifs using Entropy and Information Criteria
 **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**
   Send your reports by **Apr 23, 2023**
 
-**[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)
+**[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)  
   a. Sequence Similarity  
   b. Edit distances  
   c. Sequence Alignment  
   d. Needleman-Wunsch and Smith-Waterman Algorithms  
+  e. Dynamic Programming  
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 
 **[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics**  (May 3, 2023)
