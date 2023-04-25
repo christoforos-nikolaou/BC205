@@ -48,7 +48,7 @@ d. Evaluating motifs using Entropy and Information Criteria
 **[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler**  
   Send your reports by **Apr 23, 2023**
 
-**[5. Sequence Alignment](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_04_seqcomparison.pdf):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)  
+**[5. Sequence Alignment](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_05_Sequence_Comparison.html):  Comparing sequences with pairwise sequence alignment**  (Apr 26, 2023)  
   a. Sequence Similarity  
   b. Edit distances  
   c. Sequence Alignment  
