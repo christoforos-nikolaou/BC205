@@ -71,11 +71,11 @@ d. Evaluating motifs using Entropy and Information Criteria
 
 **[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 10, 2023)
 
-  a. Identical string matching for millions of sequences
-  b. Data Transformation Techniques
-  c. Suffix Trees
-  d. Burrows-Wheeler Transform (BWT)
-
+  a. Identical string matching for millions of sequences  
+  b. Data Transformation Techniques  
+  c. Suffix Trees  
+  d. Burrows-Wheeler Transform (BWT)  
+  
 **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**  
   Send your reports by **May 26, 2023**
 
