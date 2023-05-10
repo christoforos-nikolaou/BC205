@@ -15207,12 +15207,15 @@ As numerical comparison is faster than string comparison the whole process is sp
 </ul>
 <p><img src="figures/FASTA1.JPG" alt="FASTA2"></p>
 <ul>
-<li>Every $S[i]$ is incremented with corresponding kmer match</li>
+<li>Every $S[i]$ is incremented with the corresponding kmer match</li>
+</ul>
+<p><img src="figures/FASTA4.JPG" alt="FASTAscoring"></p>
+<ul>
 <li>$S[i]$ with scores above a certain limit are kept to form part of the general alignment</li>
 </ul>
 <p><img src="figures/FASTA3.JPG" alt="FASTA3"></p>
 <ul>
-<li>The alignment is create with the stitching together of S[i] where <em>i</em> are found within a given distance (range, or "band")</li>
+<li>The alignment is created with the stitching together of S[i] where <em>i</em> are found within a given distance (range, or "band")</li>
 </ul>
 <p><img src="figures/BLASTStat.JPG" alt="FASTA4"></p>
 <p>Below you may find a sample of the code to index the kmers for a given sequence.</p>
