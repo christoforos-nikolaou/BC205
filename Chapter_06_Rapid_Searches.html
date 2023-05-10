@@ -9,7 +9,7 @@
 
 
 <style type="text/css">
-    pre { line-height: 125%; }
+    pre { line-height: 125%; margin: 0; }
 td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
 td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -14290,7 +14290,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Naive Pattern Searching algorithm</span>
@@ -14343,7 +14343,7 @@ Pattern found at index  25
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14370,7 +14370,7 @@ The other is that we may be able to speed up the process provided that the <em>p
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Optimized Naive Search </span>
@@ -14426,7 +14426,7 @@ Pattern found at index 25
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14450,7 +14450,7 @@ Pattern found at index 25
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">naivePatternSearch</span><span class="p">(</span><span class="s1">&#39;ledzeppelin&#39;</span><span class="p">,</span> <span class="s1">&#39;IhateabbaledzeppeliniswhatIreallylove&#39;</span><span class="p">)</span>
@@ -14481,7 +14481,7 @@ Pattern found at index 25
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14505,7 +14505,7 @@ Pattern found at index 25
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">optNaivePatternSearch</span><span class="p">(</span><span class="s1">&#39;ledzeppelin&#39;</span><span class="p">,</span> <span class="s1">&#39;IhateabbaledzeppeliniswhatIreallylove&#39;</span><span class="p">)</span>
@@ -14536,7 +14536,7 @@ Pattern found at index 25
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14556,7 +14556,7 @@ Pattern found at index 25
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>You see that a pattern of large size makes the situation much faster since we don't need to slide it exhaustively. 
 A number of exact pattern matching approaches are based on efficient pattern sliding techniques. In the following we will discuss some of the most common ones.</p>
-<h3 id="More-efficient-approaches-in-pattern-sliding.-Knuth-Morris-Pratt-Algorithm-(KMP)">More efficient approaches in pattern sliding. Knuth-Morris-Pratt Algorithm (KMP)<a class="anchor-link" href="#More-efficient-approaches-in-pattern-sliding.-Knuth-Morris-Pratt-Algorithm-(KMP)">&#182;</a></h3><p>Both naive approaches don’t work well in cases where we see many matching characters followed by a mismatching character. This is because we still have to try to match a large number of characters before realizing that an exact match is impossible. (Think, e.g. for the case of 'ledzeppelin' in 'Iloveledzeppelix').</p>
+<h3 id="More-efficient-approaches-in-pattern-sliding.-The-Knuth-Morris-Pratt-Algorithm-(KMP)">More efficient approaches in pattern sliding. The Knuth-Morris-Pratt Algorithm (KMP)<a class="anchor-link" href="#More-efficient-approaches-in-pattern-sliding.-The-Knuth-Morris-Pratt-Algorithm-(KMP)">&#182;</a></h3><p>Both naive approaches don’t work well in cases where we see many matching characters followed by a mismatching character. This is because we still have to try to match a large number of characters before realizing that an exact match is impossible. (Think, e.g. for the case of 'ledzeppelin' in 'Iloveledzeppelix').</p>
 <p>The KMP matching algorithm focus <strong>again</strong> on the <em>pattern</em> and in particular specific structural properties of the pattern. For instance if the pattern has recurring sub-patterns appearing more than once. The basic idea behind KMP’s algorithm is: whenever we detect a mismatch (after some matches), we already know some of the characters in the text of the next window. We take advantage of this information to avoid matching the characters that we know will anyway match.</p>
 <p>For instance check the following example:</p>
 <p>sequence : XXXXAAAAAXXBB
@@ -14574,7 +14574,8 @@ pattern : AAA</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Prefix-Array-Construction">Prefix Array Construction<a class="anchor-link" href="#Prefix-Array-Construction">&#182;</a></h3><p>Consider a prefix <em>r</em> such as that <em>r=ACACA</em></p>
+<h3 id="Prefix-Array-Construction">Prefix Array Construction<a class="anchor-link" href="#Prefix-Array-Construction">&#182;</a></h3><p>We will create an array, called the "Longest Prefix-Suffix" (LPS) array, to assist us in the search.</p>
+<p>Consider a prefix <em>r</em> such as that <em>r=ACACA</em></p>
 <ol>
 <li>All proper(=not containing itself) prefixes of <em>r</em> are:<br>
  A, AC, ACA and ACAC</li>
@@ -14621,7 +14622,7 @@ pattern : AAA</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">kmpPrefixArray</span><span class="p">(</span><span class="n">pattern</span><span class="p">):</span>
@@ -14652,7 +14653,7 @@ pattern : AAA</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14677,7 +14678,7 @@ Compare:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">kmpPrefixArray</span><span class="p">(</span><span class="s1">&#39;GAGCCGAGCCGAGTCTG&#39;</span><span class="p">)</span>
@@ -14696,7 +14697,7 @@ Compare:</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14720,7 +14721,7 @@ Compare:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">kmpPrefixArray</span><span class="p">(</span><span class="s1">&#39;GATCGCGACGTTCAGCT&#39;</span><span class="p">)</span>
@@ -14739,7 +14740,7 @@ Compare:</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14757,22 +14758,26 @@ Compare:</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="KMP-Search-with-the-Prefix-Array">KMP Search with the Prefix Array<a class="anchor-link" href="#KMP-Search-with-the-Prefix-Array">&#182;</a></h3><p>The next step now, is to use the Prefix Array to search the <em>sequence</em>. The algorithm may be outligned as follows:</p>
-
-<pre><code>1. Start from the beginning _i_ of _sequence_ and _j_ of pattern.  
-2. For as long as there is a match continue matching.  
-3. Upon hitting a mismatch, check if _j=0_. If yes, move one character in _sequence_.  
-4. In _j_ is not equal to 0 (which means we are in the middle of the pattern), update _j_ according to each value in the prefix array.   
-5. If _j_ reaches the length of the pattern, then a complete match has been reached. Return exact match.  
-
-</code></pre>
+<h3 id="KMP-Search-with-the-Prefix-Array">KMP Search with the Prefix Array<a class="anchor-link" href="#KMP-Search-with-the-Prefix-Array">&#182;</a></h3><p>The next step now, is to use the Prefix Array to search the <em>sequence</em>.</p>
+<p>The idea is to use the LPS array to speed up the process by directing us at <strong>which characters between string and pattern to match every time</strong>.</p>
+<p>The algorithm may be outligned as follows:</p>
+<ol>
+<li>Start from the beginning <em>i</em> of <em>sequence</em> and <em>j</em> of pattern.    </li>
+<li>For as long as there is a match continue matching.    </li>
+<li>Upon hitting a mismatch, check if <em>j=0</em>. If yes, move one character in <em>sequence</em>.  </li>
+<li>In <em>j</em> is not equal to 0 (which means we are in the middle of the pattern), look at the value of <em>LPS[j-1]</em>.</li>
+<li>Consider j (the position in the pattern) to be equal to the value of <em>LPS[j-1]</em> (e.g. if <em>LPS[j-1]==2</em> then move to the third position of the pattern)   </li>
+<li>If <em>j</em> reaches the length of the pattern, then a complete match has been reached. Return exact match. </li>
+<li><strong>After a match is found</strong> move the pattern as many places as the <strong>last</strong> value of LPS indicates.  </li>
+</ol>
+<p>The key is this: In case of matches we move as many positions as the last match at the LPS tells us. In case of mismatch we move the pattern according to the <strong>index-value</strong> of the previous LPS of the mismatch.</p>
 <p>Below you may see an implementation in Python.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">kmpSearch</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">sequence</span><span class="p">):</span>
@@ -14812,7 +14817,7 @@ Compare:</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14830,7 +14835,7 @@ Compare:</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Other-approaches-that-use-pattern-preprocessing">Other approaches that use pattern preprocessing<a class="anchor-link" href="#Other-approaches-that-use-pattern-preprocessing">&#182;</a></h3><p>A number of string matching algorithms that employ pattern preprocessing strategies exist. The most notable ones are:</p>
+<h3 id="Other-approaches-that-use-pattern-preprocessing-(not-discussed-in-2022-2023)">Other approaches that use pattern preprocessing (not discussed in 2022-2023)<a class="anchor-link" href="#Other-approaches-that-use-pattern-preprocessing-(not-discussed-in-2022-2023)">&#182;</a></h3><p>A number of string matching algorithms that employ pattern preprocessing strategies exist. The most notable ones are:</p>
 <ol>
 <li>The Boyer-Moore (BM) algorithm, uses a transformation of the pattern so that it instructs "jumps" in the case of mismatch (like the KMP algorithm).   </li>
 <li>Finite Automata (FA) transform the pattern in an object that is searchable with "jumps" between different states.  </li>
@@ -14846,7 +14851,7 @@ Compare:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Boyer Moore </span>
@@ -14924,7 +14929,7 @@ Compare:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bmSearch</span><span class="p">(</span><span class="s1">&#39;abra&#39;</span><span class="p">,</span> <span class="s1">&#39;avadaketabraandalabra&#39;</span><span class="p">)</span>
@@ -15064,7 +15069,7 @@ As numerical comparison is faster than string comparison the whole process is sp
 <p>The problems comes with the hashing strategy. First the hashing function needs to be carefully defined so that is creates a broad range of values to avoid spurious hits. The other is that it needs to be a <strong>rolling hash function</strong>, meaning one that can update values on the go.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
@@ -15130,6 +15135,31 @@ As numerical comparison is faster than string comparison the whole process is sp
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-11-4519cab7e033&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">43</span>
+<span class="ansi-yellow-intense-fg ansi-bold">    print &#34;Pattern found at index &#34; + str(i)</span>
+<span class="ansi-white-intense-fg ansi-bold">          ^</span>
+<span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid syntax
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15159,18 +15189,28 @@ As numerical comparison is faster than string comparison the whole process is sp
 <li>Get two seqeunces (Q, S)</li>
 <li>Choose a length k for kmers</li>
 <li>Map all kmers in Q, S</li>
+</ul>
+<p><img src="figures/FASTA2.JPG" alt="FASTA1"></p>
+<ul>
 <li>Create a matching matrix M. M is indexed for diagonals. The diagonals are indexed as i=m-n, where m is the position of each kmer in Q and n is the position of the corresponding kmer in S.</li>
+</ul>
+<p><img src="figures/FASTA1.JPG" alt="FASTA2"></p>
+<ul>
 <li>Every $S[i]$ is incremented with corresponding kmer match</li>
 <li>$S[i]$ with scores above a certain limit are kept to form part of the general alignment</li>
+</ul>
+<p><img src="figures/FASTA3.JPG" alt="FASTA3"></p>
+<ul>
 <li>The alignment is create with the stitching together of S[i] where <em>i</em> are found within a given distance (range, or "band")</li>
 </ul>
+<p><img src="figures/BLASTStat.JPG" alt="FASTA4"></p>
 <p>Below you may find a sample of the code to index the kmers for a given sequence.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># A function to index k-mers</span>
@@ -15219,50 +15259,6 @@ As numerical comparison is faster than string comparison the whole process is sp
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="FASTA-Pseudocode-example">FASTA Pseudocode example<a class="anchor-link" href="#FASTA-Pseudocode-example">&#182;</a></h3><p>'''
-fastaComparison(Q,S):<br>
-    q=len(Q)<br>
-    s=len(S)<br>
-    k=2 # choice of k</p>
-
-<pre><code>#  
-S=[0 for i in range(1-q,s-1)] # creation of S  
-kmersQ = indexKmers(Q, k)  
-kmersS = indexKmers(S, k)  
-S = []  
-for i in kmersQ:  
-    m = kmersQ[i]  
-    n = kmersQ[i]  
-    if (len(m) == 0):  
-        m = 0  
-    if (len(n) == 0):  
-        n = 0  
-    for mmer in m:  
-        for nmer in n:  
-            p = m[mmer] - n[nmer]  
-            S[p] += 1   
-return S  
-</code></pre>
-<p>'''</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="BLAST">BLAST<a class="anchor-link" href="#BLAST">&#182;</a></h3><ul>
 <li>BLAST is by far the most widely-used (and cited) Bioinformatics algorithm.  </li>
 <li>It works by finding local alignments with mismatches and extends them by joining related (closely located) matched elements (HSP: high scoring segment pairs)  </li>
@@ -15272,24 +15268,11 @@ return S
 <li>word length (w)  </li>
 <li>distance (d) of created dictionary (assumes a substitution table)  </li>
 <li>extension (e) for the distance within which HSP are joined </li>
-<li>E-value is the value on which the statistical inference of the final match is based   </li>
+<li>E-value is the value on which the statistical inference of the final match is based  </li>
 </ol>
+<p><img src="figures/BLAST.JPG" alt="BLAST"></p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># code</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
