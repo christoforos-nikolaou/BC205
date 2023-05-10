@@ -15,11 +15,11 @@ For implementation purposes you should consider the following:
 
    b. k=5 as the length of the matched word 
 
-   c. m=20 as the size of matched diagonals (_S[i]_) that you will keep in each search  
+   c. m=20 as the minimum size of matched diagonals (_S[i]_) that you will keep in each search  
 
    d. g=3 as the maximum gap size before joining regions
    
-   e. a total score of 50% of the length of the query sequence
+   e. a total score of 50% of the length of the query sequence to be used as prerequisite
 
    e. Final outputs will consist of a list of matched sequences that fulfill the above criteria alongside with their Total Scores.
    
