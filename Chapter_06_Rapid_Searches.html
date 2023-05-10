@@ -14637,7 +14637,7 @@ pattern : AAA</p>
     <span class="n">kmp</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span><span class="p">(</span><span class="n">kmp</span><span class="p">)</span>
 
-<span class="n">kmpPrefixArray</span><span class="p">(</span><span class="s1">&#39;ACACACCAT&#39;</span><span class="p">)</span>
+<span class="n">kmpPrefixArray</span><span class="p">(</span><span class="s1">&#39;ACACA&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14659,7 +14659,7 @@ pattern : AAA</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[0, 0, 1, 2, 3, 2, 0, 1, 0]</pre>
+<pre>[0, 0, 1, 2, 3]</pre>
 </div>
 
 </div>
@@ -14770,7 +14770,12 @@ Compare:</p>
 <li>If <em>j</em> reaches the length of the pattern, then a complete match has been reached. Return exact match. </li>
 <li><strong>After a match is found</strong> move the pattern as many places as the <strong>last</strong> value of LPS indicates.  </li>
 </ol>
-<p>The key is this: In case of matches we move as many positions as the last match at the LPS tells us. In case of mismatch we move the pattern according to the <strong>index-value</strong> of the previous LPS of the mismatch.</p>
+<p>The key is this: In every case (either a match or a mismatch):</p>
+<ol>
+<li>we take the <strong>last matching residue</strong> </li>
+<li>we look up its LPS value  </li>
+<li>we move the pattern <strong>whose index matches that LPS value</strong> and place it <strong>at the position of the mismatch</strong>  </li>
+</ol>
 <p>Below you may see an implementation in Python.</p>
 
 </div>
@@ -14832,6 +14837,12 @@ Compare:</p>
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>And <a href="https://www.youtube.com/watch?v=pu2aO_3R118">here</a> you may find an explanatory video on how to build the LPS array and perform the slides in the KMP search.</p>
+
+</div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15148,7 +15159,7 @@ As numerical comparison is faster than string comparison the whole process is sp
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>
-<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-11-4519cab7e033&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">43</span>
+<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-42-4519cab7e033&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">43</span>
 <span class="ansi-yellow-intense-fg ansi-bold">    print &#34;Pattern found at index &#34; + str(i)</span>
 <span class="ansi-white-intense-fg ansi-bold">          ^</span>
 <span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid syntax
@@ -15178,7 +15189,7 @@ As numerical comparison is faster than string comparison the whole process is sp
 </li>
 <li><p>Scoring: The ten highest scoring regions are rescored using a scoring matrix. The score for such a pair of regions is saved as the init1 score.</p>
 </li>
-<li><p>Introduction of Gaps: FastA determines if any of the initial regions from different diagonals may be joined together to form an approximate alignment with gaps. Only non-overlapping regions may be joined. The score for the joined regions is the sum of the scores of the initial regions minus a joining penalty for each gap. The score of the highest scoring region, at the end of this step, is saved as the initial score.</p>
+<li><p>Introduction of Gaps: FastA determines if any of the initial regions from different diagonals may be joined together to form an approximate alignment with gaps. <strong>Only non-overlapping regions may be joined</strong>. The score for the joined regions is the sum of the scores of the initial regions minus a joining penalty for each gap. The score of the highest scoring region, at the end of this step, is saved as the initial score.</p>
 </li>
 <li><p>Alignment: After computing the initial scores, FastA determines the best segment of similarity between the query sequence and the search set sequence, using a variation of the Smith-Waterman algorithm. The score for this alignment is the optimal score.</p>
 </li>
