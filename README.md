@@ -69,7 +69,7 @@ d. Evaluating motifs using Entropy and Information Criteria
 **[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm**  
   Send your reports by **May 22, 2023**
 
-**[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 10, 2023)
+**[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments** (May 17, 2023)
 
   a. Identical string matching for millions of sequences  
   b. Data Transformation Techniques  
@@ -77,7 +77,7 @@ d. Evaluating motifs using Entropy and Information Criteria
   d. Burrows-Wheeler Transform (BWT)  
   
 **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**  
-  Send your reports by **May 26, 2023**
+  Send your reports by **June 9th, 2023**
 
 **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 17, 2023)
   a. Working with genome coordinates
