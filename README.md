@@ -79,7 +79,7 @@ d. Evaluating motifs using Entropy and Information Criteria
 **[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**  
   Send your reports by **June 9th, 2023**
 
-**[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 17, 2023)
+**[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 24, 2023)
   a. Working with genome coordinates
   b. Coordinate overlaps
   c. Smallest distance of genomic segments
@@ -88,13 +88,13 @@ d. Evaluating motifs using Entropy and Information Criteria
 
 **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
-**[9. Networks]() Introduction to Networks, Statistical and Topological Properties** (May 24, 2023)
+**[9. Networks]() Introduction to Networks, Statistical and Topological Properties** (May 31, 2023)
   a. Introduction. Why are networks important?
   b. Network topology
   c. Statistical Properties of Networks
 
 **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
-**[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (May 31, 2023)
+**[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7, 2023)
 
-**[11. Final Projects. Part II. Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7, 2023)
+**[11. Final Projects. Part II. Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)

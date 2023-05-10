@@ -4,7 +4,7 @@ Below you may find a list of suggested topics for your final project in our clas
 Some of them have been suggested by you and hence people who came up with the idea will have priority.
 Most of the topics are vaguely described. They will be further elaborated once they are assigned to people (or groups).
 
-One last thing I would like to suggest is that the final projects are **presented** by you to the whole class in a couple of dates we can set after the final deadline (**July 14th**)
+One last thing I would like to suggest is that the final projects are **presented** by you to the whole class in a couple of dates we can set after the final deadline (**XXXX**)
 
 * The list (items still being added)
 
