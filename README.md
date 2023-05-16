@@ -76,7 +76,7 @@ d. Evaluating motifs using Entropy and Information Criteria
   c. Suffix Trees  
   d. Burrows-Wheeler Transform (BWT)  
   
-**[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_6.md): Burrows-Wheeler Transformation**  
+**[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_BW.md): Burrows-Wheeler Transformation**  
   Send your reports by **June 9th, 2023**
 
 **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 24, 2023)

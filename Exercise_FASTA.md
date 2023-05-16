@@ -24,3 +24,9 @@ For implementation purposes you should consider the following:
    e. Final outputs will consist of a list of matched sequences that fulfill the above criteria alongside with their Total Scores.
    
    f. Report the highest matching sequence. Which gene does it correspond to?
+
+
+Consider the following points in making the algorithm faster:  
+* Use the _most common k-mers_ instead of the full k-mers list
+* Increase the size of k.
+  
