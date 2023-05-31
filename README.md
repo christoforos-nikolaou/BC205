@@ -80,20 +80,19 @@ d. Evaluating motifs using Entropy and Information Criteria
   Send your reports by **June 9th, 2023**
 
 **[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data** (May 24, 2023)
-  a. Working with genome coordinates
-  b. Coordinate overlaps
-  c. Smallest distance of genomic segments
-  Find a detailed tutorial for BedTools [here](https://bedtools.readthedocs.io/en/latest/content/overview.html)
+  a. Working with genome coordinates  
+  b. Coordinate overlaps  
+  c. Smallest distance of genomic segments  
+  Find a detailed tutorial for BedTools [here](https://bedtools.readthedocs.io/en/latest/content/overview.html)  
   A recording of the lecture on BedTools may be found [here](https://www.dropbox.com/s/2pzaezejbh19153/BedTools_31052021.mp4)
 
 **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
 **[9. Networks]() Introduction to Networks, Statistical and Topological Properties** (May 31, 2023)
-  a. Introduction. Why are networks important?
-  b. Network topology
-  c. Statistical Properties of Networks
-
-**[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
+  a. Introduction. Why are networks important?  
+  b. Network topology  
+  c. Statistical Properties of Networks  
+ 
 
 **[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 7, 2023)
 
