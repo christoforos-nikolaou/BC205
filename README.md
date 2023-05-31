@@ -93,4 +93,4 @@ d. Evaluating motifs using Entropy and Information Criteria
   b. Network topology  
   c. Statistical Properties of Networks  
  
-**[10. Final Projects. Part I. Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
+**[10. Final Projects: Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
