@@ -5,15 +5,19 @@
 This is the git repository on the Course on Algorithms in Bioinformatics (BC205) which forms part of the Program of the Masters in Bionformatics at the University of Crete
 
 **Contact Details**
-*Christoforos Nikolaou: cnikolaou@fleming.gr*
-*web: https://computational-genomics.weebly.com/*
-*twitter: @guilderstern*
+*Christoforos Nikolaou: cnikolaou@fleming.gr*  
+*web: https://computational-genomics.weebly.com/*  
+*twitter: @guilderstern*  
 
 ## 2022-2023 Academic Year (March-June 2023)
 
 ### We will be covering the following topics
 
-**[1. Introduction to Algorithms: Types of Algorithms, Complexity and Iteration vs Recursion](https://nbviewer.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html)**  (Mar 8 and Mar 15, 2023)  a. General Introduction  b. Concepts: Iteration vs Recursion  c. Methods: Brute Force vs Divide and Conquer Approaches  d. Problems: Finding the Largest Common Divisor and Numerical Sort
+**[1. Introduction to Algorithms: Types of Algorithms, Complexity and Iteration vs Recursion](https://nbviewer.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html)**  (Mar 8 and Mar 15, 2023)  
+a. General Introduction  
+b. Concepts: Iteration vs Recursion  
+c. Methods: Brute Force vs Divide and Conquer Approaches  
+d. Problems: Finding the Largest Common Divisor and Numerical Sort
 
 * Notes and code for the lecture in **pdf** can be found [here](Chapter_01_Introduction.pdf)
 * A -slightly outdated- set of slides can be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_Introduction_beamer.pdf)
