@@ -99,4 +99,4 @@ d. Evaluating motifs using Entropy and Information Criteria
 
 Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2_Chapter17_NetworkAnalysisWithR.html)
  
-**[10. Final Projects: Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
+**[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
