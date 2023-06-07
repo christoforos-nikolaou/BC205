@@ -96,5 +96,7 @@ d. Evaluating motifs using Entropy and Information Criteria
   a. Introduction. Why are networks important?  
   b. Network topology  
   c. Statistical Properties of Networks  
+
+Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2)
  
 **[10. Final Projects: Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
