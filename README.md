@@ -97,6 +97,6 @@ d. Evaluating motifs using Entropy and Information Criteria
   b. Network topology  
   c. Statistical Properties of Networks  
 
-Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2)
+Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2_Chapter17_NetworkAnalysisWithR.html)
  
 **[10. Final Projects: Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
