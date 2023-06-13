@@ -24,11 +24,7 @@ The **deadline** for handing in your projects is **Sunday July 9th, 2023**.
 7. **Maximal coverage of valued elements**. Given: a) the total length of a genome (or a chromosome) and b) a set of _overlapping_ segment coordinates from that genome where each segment is assigned a value(score). Find the set of non-overlapping segments that maximizes the sum of values(scores) for the given genome. (2) 
    
 8.  **Cluster Discovery in Biological Sequence**. The idea here is to approach biological sequences (genomes, proteins etc) as representations of "random walks" in which the probability of having a residue _N_ followed by another _N+1_ is the same throughout the sequence (and may be calculated, or set arbitrarily). Given a set of probabilities the goal of this work will be to identify clusters of sequences with clear over-representations, i.e. occurring more frequently than by chance. (2)
-
-
-8.  **Τοpologically Associated Domains from contact maps**. Contact maps (from chromosome conformation experiments) are square matrices whose values correspond to frequencies of contacts between particular regions in linear chromosomes. The idead for this project is to implement an algorithm for the identification and of topologically associated domains (TADs) which are defined as _blocks of linear sequence within which contacts are more frequent than between them and other areas_. (1)
-
-
-9.  **Creating a Suffix Trie from the Suffix Array of a given Sequence**. The idea here is purely algorithmic. Given a DNA sequence, first construct its suffix array and then use it to construct its suffix trie. Use sequences of different complexity to show how the suffix trie size scales with the the complexity of the sequence. (2)
+9.  **Τοpologically Associated Domains from contact maps**. Contact maps (from chromosome conformation experiments) are square matrices whose values correspond to frequencies of contacts between particular regions in linear chromosomes. The idead for this project is to implement an algorithm for the identification and of topologically associated domains (TADs) which are defined as _blocks of linear sequence within which contacts are more frequent than between them and other areas_. (1)
+10. **Creating a Suffix Trie from the Suffix Array of a given Sequence**. The idea here is purely algorithmic. Given a DNA sequence, first construct its suffix array and then use it to construct its suffix trie. Use sequences of different complexity to show how the suffix trie size scales with the the complexity of the sequence. (2)
 
 
