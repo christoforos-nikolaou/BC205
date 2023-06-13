@@ -92,11 +92,15 @@ d. Evaluating motifs using Entropy and Information Criteria
 
 **[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates**
 
-**[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/cb_2016_lecture_09_biologicalnetworkanalysis.pdf)** (June 7, 2023)  
+**[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)** (June 7, 2023)  
   a. Introduction. Why are networks important?  
   b. Network topology  
   c. Statistical Properties of Networks  
 
 Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2_Chapter17_NetworkAnalysisWithR.html) 
  
+<<<<<<< HEAD
 **[10. Final Projects: Presentation](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects_2023.md)** (June 14, 2023)
+=======
+**[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects.md)** (June 14, 2023)
+>>>>>>> 9a2d936af629378991ed0ca39a03c4ecf66da79c
