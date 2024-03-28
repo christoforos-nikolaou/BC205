@@ -38,7 +38,7 @@ d. Problems: Locating the origin of replication in a bacterial genome
 * A set of (somewhat obsolete) slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf)
 
 __[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_1.md): Introduction and Sequence Analysis__  
-Send your reports by __April 3, 2024__
+Send your reports by __April 11, 2024__
 
 **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 04, 2024)  
 a. Motif Definition  
@@ -55,7 +55,7 @@ b. Gibbs Sampling
 c. Complementary approaches
 
 __[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler__  
-Send your reports by __Apr 18, 2024__
+Send your reports by __Apr 25, 2024__
 
 __[5. Sequence Alignment](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_05_Sequence_Comparison.html):  Comparing sequences with pairwise sequence alignment__  (Apr 18, 2024)  
 a. Sequence Similarity  
