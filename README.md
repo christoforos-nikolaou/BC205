@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HSFZVBHW1H98RKAA3180G6T8
-  version: v3
----
-
 # BC205
 
 ## Algorithms in Bioinformatics - MSc in Bioinformatics - University of Crete
