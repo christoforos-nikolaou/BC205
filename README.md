@@ -1,3 +1,9 @@
+---
+runme:
+  id: 01HVR0D8SDGQ7JAJY1DZ8R6FM3
+  version: v3
+---
+
 # BC205
 
 ## Algorithms in Bioinformatics - MSc in Bioinformatics - University of Crete
@@ -58,6 +64,7 @@ c. Sequence Alignment
 d. Needleman-Wunsch and Smith-Waterman Algorithms  
 e. Dynamic Programming
 
+* A set of slides (in greek) for the presentation of Sequence Comparison and Pairwise alignment (Week 5) may be found [here](https://www.dropbox.com/s/yq9dejphos9x47e/cb_2016_lecture_04_seqcomparison.pdf?dl=0)
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 
 __[6. Rapid Sequence Searches](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_06_Rapid_Searches.html):  Quick String-matching algorithms with applications to Genomics__  (Apr 25, 2024)
