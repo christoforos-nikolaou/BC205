@@ -55,7 +55,7 @@ b. Gibbs Sampling
 c. Complementary approaches
 
 __[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_4.md): Gibbs Sampler__  
-Send your reports by __Apr 25, 2024__
+Send your reports by __Μay 12, 2024__
 
 __[5. Sequence Alignment](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_05_Sequence_Comparison.html):  Comparing sequences with pairwise sequence alignment__  (Apr 18, 2024)  
 a. Sequence Similarity  
@@ -79,7 +79,7 @@ e. BLAST
 * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf)
 
 __[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm__  
-Send your reports by __May 12, 2024__
+Send your reports by __May 19, 2024__
 
 __[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments__ (May 16, 2024)
 
