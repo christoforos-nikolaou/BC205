@@ -79,9 +79,9 @@ e. BLAST
 * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_RapidSearches_beamer.pdf)
 
 __[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_FASTA.md): Implementation of the FastA algorithm__  
-Send your reports by __May 19, 2024__
+Send your reports by __May 26, 2024__
 
-__[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments__ (May 16, 2024)
+__[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments__ (May 23, 2024)
 
 a. Identical string matching for millions of sequences  
 b. Data Transformation Techniques  
@@ -89,9 +89,9 @@ c. Suffix Trees
 d. Burrows-Wheeler Transform (BWT)
 
 __[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercise_BW.md): Burrows-Wheeler Transformation__  
-Send your reports by __June 9th, 2024__
+Send your reports by __June 16, 2024__
 
-__[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data__ (May 23, 2024)  
+__[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data__ (May 30, 2024: **Postponed for June 6, 2024**)  
 a. Working with genome coordinates  
 b. Coordinate overlaps  
 c. Smallest distance of genomic segments  
@@ -100,12 +100,12 @@ A recording of the lecture on BedTools may be found [here](https://www.dropbox.c
 
 __[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates__
 
-__[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)__ (May 30, 2024)  
+__[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)__ (Cancelled)  
 a. Introduction. Why are networks important?  
 b. Network topology  
 c. Statistical Properties of Networks
 
 Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2_Chapter17_NetworkAnalysisWithR.html)
 
-__[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects_2023.md)__ (June 6, 2024)
+__[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects_2023.md)__ (Final: June 13, 2024)
 
