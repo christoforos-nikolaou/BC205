@@ -94,7 +94,7 @@ A recording of the lecture on BedTools may be found [here](https://www.dropbox.c
 
 __[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates__
 
-__[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)__ (Cancelled)  
+__[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)__ (June 6, 2024)  
 a. Introduction. Why are networks important?  
 b. Network topology  
 c. Statistical Properties of Networks
