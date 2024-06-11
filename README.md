@@ -101,5 +101,5 @@ c. Statistical Properties of Networks
 
 Find an unpublished Chapter on Network Analysis with R [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Ed2_Chapter17_NetworkAnalysisWithR.html)
 
-__[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects_2023.md)__ (Final: June 13, 2024)
+__[10. Final Projects: Assignments](https://github.com/christoforos-nikolaou/BC205/blob/master/FinalProjects_2024.md)__ (Final: June 13, 2024)
 
