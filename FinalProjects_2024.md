@@ -4,8 +4,6 @@ Below you may find a list of suggested topics for your final project in our clas
 Some of the topics are described in brief and without further details.
 They will be further elaborated once they are assigned to people (or groups).
 
-You may choose to work alone or in groups of two. Some projects are a bit simple to be assigned to two people so I am denoting each topic with either (1) or (2) at the end, to let you know which can be shared.
-
 The **deadline** for handing in your projects is **Sunday July 7th, 2024**.
 
 1. **Alignment-free pairwise sequence similarity using common subsequences**. There are various methods that attempt to work around the concept of sequence alignment in quantifying sequence similarity. One of them is based on Common Subsequences, which is basically a method based on k-mer frequency comparison taken to the extreme with either looking at the longest common substring (or substrings) between two given sequences.
