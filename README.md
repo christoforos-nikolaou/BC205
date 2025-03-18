@@ -11,7 +11,7 @@ This is the git repository on the Course on Algorithms in Bioinformatics (BC205)
 
 ## 2024-2025 Academic Year (March-June 2025)
 
-### We will be covering the following topics
+##### We will be covering the following topics
 
 __[1. Introduction to Algorithms: Types of Algorithms, Complexity and Iteration vs Recursion](https://nbviewer.org/github/christoforos-nikolaou/BC205/blob/master/Chapter_01_Introduction.html)__  (Mar 13 and Mar 21, 2025)  
 a. General Introduction  
