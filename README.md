@@ -92,7 +92,7 @@ c. Smallest distance of genomic segments
 Find a detailed tutorial for BedTools [here](https://bedtools.readthedocs.io/en/latest/content/overview.html)  
 A recording of the lecture on BedTools may be found [here](https://www.dropbox.com/s/2pzaezejbh19153/BedTools_31052021.mp4)
 
-__[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/BedTools_Applications.md): Working with Genomic Coordinates__
+__[BedTools Exercises (non obligatory)](https://github.com/christoforos-nikolaou/BC205/blob/master/Classes/BedTools_Applications.md): Working with Genomic Coordinates__
 
 __[9. Networks: Introduction to Networks, Statistical and Topological Properties](https://github.com/christoforos-nikolaou/BC205/blob/master/cb_2016_lecture_09_biologicalnetworks.pdf)__ (June 5, 2025)  
 a. Introduction. Why are networks important?  
