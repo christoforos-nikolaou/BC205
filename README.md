@@ -31,7 +31,7 @@ d. Problems: Locating the origin of replication in a bacterial genome
 * Notes and code for the lecture may be found [here](Chapter_02_Sequence_Analysis.pdf)
 * A set of (somewhat obsolete) slides to accompany the lecture may be found [here](BC205_SeqAnalysis_beamer.pdf)
 
-__[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/Exercise_1.md): Introduction and Sequence Analysis__  
+__[Exercise 1](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_1.md): Introduction and Sequence Analysis__  
 Send your reports by __April 13, 2025__
 
 **[3. Sequence Motifs. Ι](https://sites.google.com/site/uoccomputationalbiology/lectures/03-searching-and-discovering-motifs): Motif Definition and Detection** (Apr 03, 2025)  
@@ -48,7 +48,7 @@ a. Motif Discovery Problem
 b. Gibbs Sampling  
 c. Complementary approaches
 
-__[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/Exercise_4.md): Gibbs Sampler__  
+__[Exercise 2](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_4.md): Gibbs Sampler__  
 Send your reports by __Μay 11, 2025__
 
 __[5. Sequence Alignment](https://nbviewer.jupyter.org/github/christoforos-nikolaou/BC205/blob/master/Classes/Chapter_05_Sequence_Comparison.html):  Comparing sequences with pairwise sequence alignment__  (May 8, 2025)  
@@ -72,7 +72,7 @@ e. BLAST
 * A book chapter (in greek) on Sequence Alignment (Week 5) and Rapid Searches (Week 6) may be found [here](https://repository.kallipos.gr/bitstream/11419/1582/1/Chapter04_seqalignment_R.pdf)
 * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Classes/BC205_RapidSearches_beamer.pdf)
 
-__[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/Exercise_FASTA.md): Implementation of the FastA algorithm__  
+__[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_FASTA.md): Implementation of the FastA algorithm__  
 Send your reports by __May 25, 2025__
 
 __[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/Classes/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments__ (May 22, 2025)
@@ -82,7 +82,7 @@ b. Data Transformation Techniques
 c. Suffix Trees  
 d. Burrows-Wheeler Transform (BWT)
 
-__[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/Exercise_BW.md): Burrows-Wheeler Transformation__  
+__[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_BW.md): Burrows-Wheeler Transformation__  
 Send your reports by __June 8, 2025__
 
 __[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data__ (May 29, 2025)  
