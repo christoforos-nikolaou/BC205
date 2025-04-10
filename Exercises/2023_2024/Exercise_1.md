@@ -1,6 +1,6 @@
 # BC205: Algorithms for Bioinformatics.
 
-## Exercise 1. Introduction and Sequence Analysis (Deadline: April 11th, 2024)
+## Exercise 1. Introduction and Sequence Analysis (Deadline: April 13th, 2025)
 
 You may choose **one** out of the following exercises and submit it by the deadline in any form you like, provided it contains:
 1. The code for the solution, as well annotated with comments as possible.
