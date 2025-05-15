@@ -73,7 +73,7 @@ e. BLAST
 * Slides for the lecture (in greek) may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/Classes/BC205_RapidSearches_beamer.pdf)
 
 __[Exercise 3](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_FASTA.md): Implementation of the FastA algorithm__  
-Send your reports by __May 25, 2025__
+Send your reports by __June 1, 2025__
 
 __[7. NGS Mapping Algorithms](https://github.com/christoforos-nikolaou/BC205/blob/master/Classes/BC205_NGSMapping_beamer.pdf) Mapping and Pattern Search in genome-wide NGS-scale experiments__ (May 22, 2025)
 
@@ -83,7 +83,7 @@ c. Suffix Trees
 d. Burrows-Wheeler Transform (BWT)
 
 __[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_BW.md): Burrows-Wheeler Transformation__  
-Send your reports by __June 8, 2025__
+Send your reports by __June 22, 2025__
 
 __[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data__ (May 29, 2025)  
 a. Working with genome coordinates  
