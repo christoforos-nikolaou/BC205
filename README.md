@@ -83,7 +83,7 @@ c. Suffix Trees
 d. Burrows-Wheeler Transform (BWT)
 
 __[Exercise 4](https://github.com/christoforos-nikolaou/BC205/blob/master/Exercises/2023_2024/Exercise_BW.md): Burrows-Wheeler Transformation__  
-Send your reports by __June 22, 2025__
+Send your reports by __June 15, 2025__
 
 __[8. Genome Analysis Algorithms]() Algorithmic approaches to deal with genomic data__ (May 29, 2025)  
 a. Working with genome coordinates  
