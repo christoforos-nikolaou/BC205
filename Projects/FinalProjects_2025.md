@@ -54,9 +54,9 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)  
    **Background**: The Lotka–Volterra equations, also known as the Lotka–Volterra predator–prey model, are a pair of first-order nonlinear differential equations, frequently used to describe the dynamics of biological systems in which two species interact, one as a predator and the other as prey.   
    **Details**: In this project you will be tasked with both obtaining the test data and implementing the model.   
-   a. You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.  
-   b. Next, you will need to implement the Lotka-Volterra system of equations (see [here](https://mathworld.wolfram.com/Lotka-VolterraEquations.html)) on the data and identify the most likely parameters of the model. You may check [here](https://github.com/christoforos-nikolaou/BC205/blob/figures/LotkaVolterra.png) for some notation on the parameters you are asked to estimate.
-   c. Provide the code and relevant plots related to your models.
+   a) You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.    
+   b) Next, you will need to implement the Lotka-Volterra system of equations (see [here](https://mathworld.wolfram.com/Lotka-VolterraEquations.html)) on the data and identify the most likely parameters of the model. You may check [here](https://github.com/christoforos-nikolaou/BC205/blob/figures/LotkaVolterra.png) for some notation on the parameters you are asked to estimate.  
+   c) Provide the code and relevant plots related to your models.
 
 ---
 
@@ -67,10 +67,10 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics)
    **Background**: Ultra-conserved non-coding sequences (UCNS) are regions of DNA that have been remarkably well-preserved across different species during evolution, even though they don't code for proteins. These sequences are particularly notable for their high degree of conservation, often exceeding what's seen in protein-coding regions.
-   **Details**: You are asked to: 
-   a) obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome. 
-   b) Propose ways to scan the data to identify UCNS. Think of a strategy that will require some arbitrary criteria on minimum length and mean conservation. Also think of ways to distinguish the UCNS from actual protein coding (or other coding) sequences. Could you do this without relying on the annotation of coding sequences?
-   c) Provide the code and the results in a way that can be evaluated (number of identified segments, statistics on lengths, conservation, distance from known genes etc)
+   **Details**: You are asked to:  
+   a) obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome.   
+   b) Propose ways to scan the data to identify UCNS. Think of a strategy that will require some arbitrary criteria on minimum length and mean conservation. Also think of ways to distinguish the UCNS from actual protein coding (or other coding) sequences. Could you do this without relying on the annotation of coding sequences?  
+   c) Provide the code and the results in a way that can be evaluated (number of identified segments, statistics on lengths, conservation, distance from known genes etc)  
 
 ---
 
