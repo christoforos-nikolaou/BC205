@@ -77,8 +77,10 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 8. **Estimating the complexity of a DNA sequence** (Algorithms, Sequence Analysis)  
    **Background**: The concept of DNA sequence complexity lies at the heart of a number of applications related to the identification of repeats, the estimation of coding potential and automatic coding sequence annotation. The idea here is to propose an algorithm that will quantitatively evaluate the degree of complexity (or, on the other hand, simplicity) of a given sequence.   
    **Details**: You are asked to:  
-   a) implement an approach to assess sequence complexity based on the Kolmogorov "algorithmic complexity" as described by G. Chaitin, which basically calculates a product of the ratios of observed/maximal numbers of different k-mers in a sequence. See more [here](https://resources.qiagenbioinformatics.com/manuals/clccancerresearchworkbench/200/index.php?manual=How_sequence_complexity_is_calculated.html)
-   b) the code for this type of analysis in python
-   c) an analysis of sliding window complexity scores along a natural sequence. After choosing a complete chromosome of a given organism, you should calculate the complexity of sequences of a given length (e.g. 1000 nucleotides) for the entire length. As a bonus you may compare the data that you obtain against annotated elements of the genome (repeats vs coding sequences etc). The idea is to provide some proof that your approach does indeed pick up low/high complexity regions in the genome.
+   a) implement an approach to assess sequence complexity based on the Kolmogorov "algorithmic complexity" as described by G. Chaitin, which basically calculates a product of the ratios of observed/maximal numbers of different k-mers in a sequence. See more [here](https://resources.qiagenbioinformatics.com/manuals/clccancerresearchworkbench/200/index.php?manual=How_sequence_complexity_is_calculated.html)  
+   b) the code for this type of analysis in python  
+   c) an analysis of sliding window complexity scores along a natural sequence. After choosing a complete chromosome of a given organism, you should calculate the complexity of sequences of a given length (e.g. 1000 nucleotides) for the entire length. As a bonus you may compare the data that you obtain against annotated elements of the genome (repeats vs coding sequences etc). The idea is to provide some proof that your approach does indeed pick up low/high complexity regions in the genome.  
+
+   ---
 
 
