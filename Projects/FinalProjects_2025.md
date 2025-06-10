@@ -54,9 +54,9 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)  
    **Background**: The Lotka–Volterra equations, also known as the Lotka–Volterra predator–prey model, are a pair of first-order nonlinear differential equations, frequently used to describe the dynamics of biological systems in which two species interact, one as a predator and the other as prey.   
    **Details**: In this project you will be tasked with both obtaining the test data and implementing the model.   
-   a) You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.    
-   b) Next, you will need to implement the Lotka-Volterra system of equations (see [here](https://mathworld.wolfram.com/Lotka-VolterraEquations.html)) on the data and identify the most likely parameters of the model. You may check [here](https://github.com/christoforos-nikolaou/BC205/blob/figures/LotkaVolterra.png) for some notation on the parameters you are asked to estimate.  
-   c) Provide the code and relevant plots related to your models.
+    * You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.    
+    * Next, you will need to implement the Lotka-Volterra system of equations (see [here](https://mathworld.wolfram.com/Lotka-VolterraEquations.html)) on the data and identify the most likely parameters of the model. You may check [here](https://github.com/christoforos-nikolaou/BC205/blob/figures/LotkaVolterra.png) for some notation on the parameters you are asked to estimate.  
+    * Provide the code and relevant plots related to your models.
 
 ---
 
@@ -68,18 +68,18 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics)
    **Background**: Ultra-conserved non-coding sequences (UCNS) are regions of DNA that have been remarkably well-preserved across different species during evolution, even though they don't code for proteins. These sequences are particularly notable for their high degree of conservation, often exceeding what's seen in protein-coding regions.
    **Details**: You are asked to:  
-   a) obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome.   
-   b) Propose ways to scan the data to identify UCNS. Think of a strategy that will require some arbitrary criteria on minimum length and mean conservation. Also think of ways to distinguish the UCNS from actual protein coding (or other coding) sequences. Could you do this without relying on the annotation of coding sequences?  
-   c) Provide the code and the results in a way that can be evaluated (number of identified segments, statistics on lengths, conservation, distance from known genes etc)  
+   * obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome.   
+   * Propose ways to scan the data to identify UCNS. Think of a strategy that will require some arbitrary criteria on minimum length and mean conservation. Also think of ways to distinguish the UCNS from actual protein coding (or other coding) sequences. Could you do this without relying on the annotation of coding sequences?  
+   * Provide the code and the results in a way that can be evaluated (number of identified segments, statistics on lengths, conservation, distance from known genes etc)  
 
 ---
 
 8. **Estimating the complexity of a DNA sequence** (Algorithms, Sequence Analysis)  
    **Background**: The concept of DNA sequence complexity lies at the heart of a number of applications related to the identification of repeats, the estimation of coding potential and automatic coding sequence annotation. The idea here is to propose an algorithm that will quantitatively evaluate the degree of complexity (or, on the other hand, simplicity) of a given sequence.   
    **Details**: You are asked to:  
-   a) implement an approach to assess sequence complexity based on the Kolmogorov "algorithmic complexity" as described by G. Chaitin, which basically calculates a product of the ratios of observed/maximal numbers of different k-mers in a sequence. See more [here](https://resources.qiagenbioinformatics.com/manuals/clccancerresearchworkbench/200/index.php?manual=How_sequence_complexity_is_calculated.html)  
-   b) the code for this type of analysis in python  
-   c) an analysis of sliding window complexity scores along a natural sequence. After choosing a complete chromosome of a given organism, you should calculate the complexity of sequences of a given length (e.g. 1000 nucleotides) for the entire length. As a bonus you may compare the data that you obtain against annotated elements of the genome (repeats vs coding sequences etc). The idea is to provide some proof that your approach does indeed pick up low/high complexity regions in the genome.  
+   * implement an approach to assess sequence complexity based on the Kolmogorov "algorithmic complexity" as described by G. Chaitin, which basically calculates a product of the ratios of observed/maximal numbers of different k-mers in a sequence. See more [here](https://resources.qiagenbioinformatics.com/manuals/clccancerresearchworkbench/200/index.php?manual=How_sequence_complexity_is_calculated.html)  
+   * the code for this type of analysis in python  
+   * an analysis of sliding window complexity scores along a natural sequence. After choosing a complete chromosome of a given organism, you should calculate the complexity of sequences of a given length (e.g. 1000 nucleotides) for the entire length. As a bonus you may compare the data that you obtain against annotated elements of the genome (repeats vs coding sequences etc). The idea is to provide some proof that your approach does indeed pick up low/high complexity regions in the genome.  
 
    ---
 
