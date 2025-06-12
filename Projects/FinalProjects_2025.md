@@ -7,7 +7,7 @@ They will be further elaborated once they are assigned to people (or groups).
 The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
-1. **Maximal coverage of valued elements**. (Genomics, Epigenomics)  
+1. **Maximal coverage of valued elements**. (Genomics, Epigenomics)  [Giorgos]  
    **Background**: Very often in the fields of genomics and epigenomics we are dealing with a set of genomic coordinates of segments defined through an experimental protocol that we wish to map on the genome in an objective way. Such segments may be overlapping regions of different TF-binding sites or nucleosome positions. In this project, you are asked to provide a strategy to distribute a subset of non-overlapping genomic segments, starting from a bigger set of overlapping ones, using a pre-assigned score/value to each one.   
    **Details**:  
    Given: a) the total length of a genome (or a chromosome) and b) a set of _overlapping_ segment coordinates from that genome, where each segment is assigned a value(score). Find the set of non-overlapping segments that maximizes the sum of values(scores) for the given genome.
@@ -31,7 +31,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
   
 ---
 
-3. **Comparing genome segmentations**. (Genomics)  
+3. **Comparing genome segmentations**. (Genomics)  [Stavroula, Sofia]  
    **Background**: One very common problem we have to deal with, while handling genomics data is to estimate and statistically assess the overlap between two sets of genomic coordinates. Suppose you have the same experiment conducted twice for the identification of the genome-wide binding sites of a given TF. How can you say if the experiments are in agreement or not? The idea here is to propose ways to quantitatively compare two (or more) different segmentations of a linear series (such as genomes or chromosomes). You should find a way to calculate how similar the two patterns are. You may be inspired by the bedtools **intersect** function.
    **Details**:
    * Take the two coordinate files you will find in the following links as [coord file 1](https://www.dropbox.com/scl/fi/8f6bngwk79ndlqtdi681k/NewRun_MAC1_t4.bed?rlkey=bwqugj7tujm0rkl9la7nqewho&st=0o31va86&dl=0) and [coord file 2](https://www.dropbox.com/scl/fi/sffd3acvrulg40jvce8z3/NewRun_AFT1_t4.bed?rlkey=f43phaxa0tc4ye4l61bytrgz8&st=c4ljukhs&dl=0)
@@ -42,7 +42,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-4. **Aggregate values of a given score for genomic intervals**. (Genomics, Data Analaysis)  
+4. **Aggregate values of a given score for genomic intervals**. (Genomics, Data Analaysis)  [Eva]  
    **Background**: The idea here is rather simple. You are given two files. One is a bed-type genomic coordinate file and the other contains a compressed-type chromosome-position-score, where the score is a nucleotide-specific score.   
 **Details**: You are asked to:  
    * Get the genome coordinate file which you will obtain from [here](https://www.dropbox.com/scl/fi/6fc8stk76dg2vm93p85pn/saccer2_refseq_genes_TSS_plusmin500.bed?dl=0&rlkey=x9expw5ae08odk1fiyzcfp1ct) and which contains 1000bp-long regions from the yeast genome centered around the transcription start sites of all yeast protein coding genes.
@@ -51,7 +51,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
   
 ---
 
-5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)    
+5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)  [Eftichia]    
    **Background**: The Lotka–Volterra equations, also known as the Lotka–Volterra predator–prey model, are a pair of first-order nonlinear differential equations, frequently used to describe the dynamics of biological systems in which two species interact, one as a predator and the other as prey.   
    **Details**: In this project you will be tasked with both obtaining the test data and implementing the model.   
     * You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.    
@@ -65,7 +65,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics)  
+7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics) [Kostis, Vasiliki]   
    **Background**: Ultra-conserved non-coding sequences (UCNS) are regions of DNA that have been remarkably well-preserved across different species during evolution, even though they don't code for proteins. These sequences are particularly notable for their high degree of conservation, often exceeding what's seen in protein-coding regions.  
    **Details**: You are asked to:  
    * obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome.   
@@ -74,7 +74,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-8. **Estimating the complexity of a DNA sequence** (Algorithms, Sequence Analysis)  
+8. **Estimating the complexity of a DNA sequence** (Algorithms, Sequence Analysis)  [Antonia, Isidoros]  
    **Background**: The concept of DNA sequence complexity lies at the heart of a number of applications related to the identification of repeats, the estimation of coding potential and automatic coding sequence annotation. The idea here is to propose an algorithm that will quantitatively evaluate the degree of complexity (or, on the other hand, simplicity) of a given sequence.   
    **Details**: You are asked to:  
    * implement an approach to assess sequence complexity based on the Kolmogorov "algorithmic complexity" as described by G. Chaitin, which basically calculates a product of the ratios of observed/maximal numbers of different k-mers in a sequence. See more [here](https://resources.qiagenbioinformatics.com/manuals/clccancerresearchworkbench/200/index.php?manual=How_sequence_complexity_is_calculated.html)  
