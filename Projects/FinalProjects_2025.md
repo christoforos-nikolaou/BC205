@@ -42,16 +42,16 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-4. **Aggregate values of a given score for genomic intervals**. (Genomics, Data Analaysis)
-   **Background**: idea here is rather simple. You are given two files. One is a bed-type genomic coordinate file and the other contains a compressed-type chromosome-position-score, where the score is a nucleotide-specific score. 
-**Details**: You are asked to:
+4. **Aggregate values of a given score for genomic intervals**. (Genomics, Data Analaysis)  
+   **Background**: The idea here is rather simple. You are given two files. One is a bed-type genomic coordinate file and the other contains a compressed-type chromosome-position-score, where the score is a nucleotide-specific score.   
+**Details**: You are asked to:  
    * Get the genome coordinate file which you will obtain from [here](https://www.dropbox.com/scl/fi/6fc8stk76dg2vm93p85pn/saccer2_refseq_genes_TSS_plusmin500.bed?dl=0&rlkey=x9expw5ae08odk1fiyzcfp1ct) and which contains 1000bp-long regions from the yeast genome centered around the transcription start sites of all yeast protein coding genes.
    * Get the genome score file that you will obtain from [here](https://www.dropbox.com/scl/fi/ordt8x4lh325nln6cel8w/sacCer2_phCons.wig?dl=0&rlkey=6a5ay1t02fqhe70w88puv0kq8) which contains a nucleotide-resolution score that corresponds to the degree of sequence conservation for the entire yeast genome. The file format is wig type (see more about how to interpret this format [here](https://www.ensembl.org/info/website/upload/wig.html#:~:text=A%20WIG%20file%20consists%20of,formatting%20options%3A%20fixedStep%20and%20variableStep))
    * Write a program that will take the scores of the second file and aggregate them along the coordinates of the first to produce a new bed-type file with chromosome-start-end followed by an aggregate value of the interval. Allow the aggregate value to be chosen between sum, mean, standard deviation, maximum or minimum. 
   
 ---
 
-5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)  
+5. **Implement a Predator-Prey Dynamic Modeling on a bacterial community**. (Dynamic Systems)    
    **Background**: The Lotka–Volterra equations, also known as the Lotka–Volterra predator–prey model, are a pair of first-order nonlinear differential equations, frequently used to describe the dynamics of biological systems in which two species interact, one as a predator and the other as prey.   
    **Details**: In this project you will be tasked with both obtaining the test data and implementing the model.   
     * You are asked to check [MGnify](https://www.ebi.ac.uk/metagenomics) the metagenomics database of EBI and obtain time-series data with at least two different species with a predator-prey relationship (e.g, Predator: Bdellovibrio bacteriovorus, Prey: Escherichia coli). The data need to be time-series so that you have the necessary data points to test the model.    
@@ -65,8 +65,8 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics)
-   **Background**: Ultra-conserved non-coding sequences (UCNS) are regions of DNA that have been remarkably well-preserved across different species during evolution, even though they don't code for proteins. These sequences are particularly notable for their high degree of conservation, often exceeding what's seen in protein-coding regions.
+7. **Identifying ultra-conserved non-coding sequences in the human genome** (Evolutionary Genomics)  
+   **Background**: Ultra-conserved non-coding sequences (UCNS) are regions of DNA that have been remarkably well-preserved across different species during evolution, even though they don't code for proteins. These sequences are particularly notable for their high degree of conservation, often exceeding what's seen in protein-coding regions.  
    **Details**: You are asked to:  
    * obtain conservation data from multiple vertebrate species from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables). You may restrict your data acquisition for one chromosome.   
    * Propose ways to scan the data to identify UCNS. Think of a strategy that will require some arbitrary criteria on minimum length and mean conservation. Also think of ways to distinguish the UCNS from actual protein coding (or other coding) sequences. Could you do this without relying on the annotation of coding sequences?  
