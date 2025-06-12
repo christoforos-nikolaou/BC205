@@ -21,7 +21,7 @@ The **deadline** for handing in your projects is **Sunday July 13th, 2025**.
 
 ---
 
-2. **Use the BWT to compress a given sequence**. (Algorithm/Software Development)  
+2. **Use the BWT to compress a given sequence**. (Algorithm/Software Development)  [Thodoris]  
    **Background**: We have already discussed the Burrows-Wheeler Transform and how it could assist in the compression of a sequence. 
    **Details**:
    You are asked to:  
