@@ -14,7 +14,23 @@ Welcome to the course on Algorithms in Bioinformatics (BC205) for the 2025-2026 
 
 This year we will attempt to use a more interactive format for the lectures, with a focus on problem-solving and hands-on exercises. We will cover a range of topics in bioinformatics, focusing primarily on sequence analysis algorithms, but also touching on other areas such as comparative genomics and gene regulation.
 
-The goal is to make the class more interactive and engaging, but also to provide the framework of something that has been missing from the program, which is reading scientific papers, understanding how we formulate research questions and then how we may implement algorithms to answer them. 
+The goal is to make the class more interactive and engaging, but also to provide the framework of something that has been missing from the program, which is reading scientific papers, understanding how we formulate research questions and then how we may implement algorithms to answer them.
 
 In this way, we will be centering the course around a set of papers that we will read and discuss in class, and then we will implement the algorithms described in those papers.
+
+### March 19th, 2026: Discussion on Projects, Preliminary Journal Club
+
+In this class we will begin discussing suggested projects. Below, I am providing a list of papers, which may serve as fine starting points for the development of projects.
+
+* Gene Regulation: [Boija et al, Cell, 2018. "Transcription Factors Activate Genes through the Phase-Separation Capacity of Their Activation Domains"](https://www.sciencedirect.com/science/article/pii/S0092867418313989?via%3Dihub)
+
+* Genome Organization and Oncogenesis: [Flavahan et al., Nature, 2016. "Insulator dysfunction and oncogene activation in IDH mutant gliomas"](https://www.nature.com/articles/nature16490)
+
+* Evolution of Gene Regulation: [Ali Sharifi-Zarchi et al., BMC Genomics, 2017. "DNA methylation regulates discrimination of enhancers from promoters through a H3K4me1-H3K4me3 seesaw mechanism"](https://link.springer.com/article/10.1186/s12864-017-4353-7)
+
+* Genome Organization and Splicing: [Tammer et al., Molecular Cell, 2022. "Gene architecture directs splicing outcome in separate nuclear spatial regions"](https://www.sciencedirect.com/science/article/pii/S109727652200106X?via%3Dihub)
+
+* Alternative Splicing Regulation: [Georgakopoulos-Soares et al., Nature Communications, 2022. "Alternative splicing modulation by G-quadruplexes"](https://www.nature.com/articles/s41467-022-30071-7)
+
+* 
 
