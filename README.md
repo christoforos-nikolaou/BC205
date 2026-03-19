@@ -23,14 +23,12 @@ In this way, we will be centering the course around a set of papers that we will
 In this class we will begin discussing suggested projects. Below, I am providing a list of papers, which may serve as fine starting points for the development of projects.
 
 * Gene Regulation: [Boija et al, Cell, 2018. "Transcription Factors Activate Genes through the Phase-Separation Capacity of Their Activation Domains"](https://www.sciencedirect.com/science/article/pii/S0092867418313989?via%3Dihub)
-
 * Genome Organization and Oncogenesis: [Flavahan et al., Nature, 2016. "Insulator dysfunction and oncogene activation in IDH mutant gliomas"](https://www.nature.com/articles/nature16490)
-
 * Evolution of Gene Regulation: [Ali Sharifi-Zarchi et al., BMC Genomics, 2017. "DNA methylation regulates discrimination of enhancers from promoters through a H3K4me1-H3K4me3 seesaw mechanism"](https://link.springer.com/article/10.1186/s12864-017-4353-7)
-
 * Genome Organization and Splicing: [Tammer et al., Molecular Cell, 2022. "Gene architecture directs splicing outcome in separate nuclear spatial regions"](https://www.sciencedirect.com/science/article/pii/S109727652200106X?via%3Dihub)
-
 * Alternative Splicing Regulation: [Georgakopoulos-Soares et al., Nature Communications, 2022. "Alternative splicing modulation by G-quadruplexes"](https://www.nature.com/articles/s41467-022-30071-7)
-
-* 
+* Transcriptional Elongation and Senensence[Debes, Papadakis et al., Nature, 2023. "Ageing-associated changes in transcriptional elongation influence longevity"](https://www.nature.com/articles/s41586-023-05922-y) 
+* Complexity of Eukaryotic Gene Regulation: [Fromel et al., Cell, 2025. "Design principles of cell-state-specific enhancers in hematopoiesis"](https://www.cell.com/cell/fulltext/S0092-8674(25)00449-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867425004490%3Fshowall%3Dtrue)
+* Transcriptional Noise as a modulator of cell development: [Garcia-Blay et al., Developmental Cell, 2025. "Multimodal screen identifies noise-regulatory proteins"](https://www.cell.com/developmental-cell/fulltext/S1534-5807(24)00543-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580724005434%3Fshowall%3Dtrue) 
+* De novo gene birth in fungi: [Tassios et al., Molecular Biology and Evolution, 2021. "Intergenic Regions of Saccharomycotina Yeasts are Enriched in Potential to Encode Transmembrane Domains"](https://academic.oup.com/mbe/article/40/3/msad059/7077448)
 
