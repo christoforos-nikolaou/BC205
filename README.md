@@ -43,16 +43,18 @@ In this class we will begin discussing suggested projects. Below, I am providing
       1. How to define HARs? How many are there? Where are they enriched in the genome (coding sequences) (next time)
       2. How to search for TFBS? Which database of PWMs will be used? How will the search be done?
       3. How will the "rewiring" be assessed? How will changes be identified/quantified?
+
 ---
 
-* **Despina Georgiadou** : Noise in Gene Regulation: An underlying Mechanism in Cell Fate Determination ([Hansen paper](https://www.cell.com/developmental-cell/fulltext/S1534-5807(24)00543-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580724005434%3Fshowall%3Dtrue)) (Next Time)
+* __Despina Georgiadou__ : Noise in Gene Regulation: An underlying Mechanism in Cell Fate Determination ([Hansen paper](https://www.cell.com/developmental-cell/fulltext/S1534-5807(24)00543-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1534580724005434%3Fshowall%3Dtrue)) (Next Time)
 
    * The main goal: Relate intron size among SON targets and transcriptional noise. How does the gene structure make some genes more prone for transcriptional noise (enhancement or not)
    * Questions:
       1. How to calculate the K-ON/K-OFF from the data of Garcia-Bay et al.? (next time)
       2. Explain the two-state random telegraph model in greater detail.
-      3. Is it only SON targets that show this link between intron size and transcriptional noise? 
+      3. Is it only SON targets that show this link between intron size and transcriptional noise?
       4. SON is a Nuclear Speckle Protein. Introns are key structural determinants of mRNA splicing. What could be the link between splicing and transcriptional noise?
+
 ---
 
 * **Panagiota Meramveliotaki**: eQTL mapping to predict pharmacogenomics response
@@ -64,7 +66,7 @@ In this class we will begin discussing suggested projects. Below, I am providing
 
 ---
 
-* **Lambros Dousias**: mRNA folding and transcriptional optimization 
+* **Lambros Dousias**: mRNA folding and transcriptional optimization
 
    * The main goal: mRNA folding for optimal expression
    * Questions:
@@ -72,13 +74,15 @@ In this class we will begin discussing suggested projects. Below, I am providing
       2. What is the connection between mRNA and Codon Usage?
       3. How is MFE calculated? Description of the linearDesign algorithm. (Next Time)
       4. How is CAI calculated? (Next Time)
+
 ---
 
 * **Ioanna Xenaki**: How Ghost lineages influence Introgression (Next Time) (also have a one-on-one) (next time)
 
-   * The main goal:
+   * The main goal: Assess which method is more efficient in Identifying introgressions (horizontal transfer)
    * Questions:
-      1. What is the D-statistic (ABBA-BABA test)? How is it
+      1. What is the D-statistic (ABBA-BABA test) and what is the D3? How are they different?
+      2. How can we test which of the two methods is more efficient?
 
 ---
 
@@ -87,8 +91,9 @@ In this class we will begin discussing suggested projects. Below, I am providing
    * Papers: Fromel et al; DeepSTAR; Cell-type specific enhancers in Glial Cells in Drosophila
    * The main goal: Test the results of the Fromel et al paper against available gene expression dataset.
    * Questions:
-      1. This is a very complex paper. Start by reading it carefully and outline main findings. 
-      2. Could the results of Fromel et al. be validated in natural sequences? One could approach this by getting a gene expression profile of hematopoiesis (or perhaps even the one produced by Fromer et al.) and then check the gene expression of genes regulated by the combinations of TFs they are identifying. (Possible links with the Project of Athina in the search of TFBS).  
+      1. This is a very complex paper. Start by reading it carefully and outline main findings.
+      2. Could the results of Fromel et al. be validated in natural sequences? One could approach this by getting a gene expression profile of hematopoiesis (or perhaps even the one produced by Fromer et al.) and then check the gene expression of genes regulated by the combinations of TFs they are identifying. (Possible links with the Project of Athina in the search of TFBS).
+
 ---
 
 * **Eleftheria Pappa**: Integrating DNA methylation and gene expression data in a single gene network using the iNETgrate package (next time)
@@ -98,6 +103,7 @@ In this class we will begin discussing suggested projects. Below, I am providing
    * Algorithms: Community Detection in Networks, Matrix Decomposition
    * Questions:
       1. How does iNETgrate actually work? Show a demo of the package and discuss the types of input/output. (next time)
+
 ---
 
 * **Stergios Manakas**: Prediction of Splicing Outcomes based on the gene structure
@@ -105,25 +111,34 @@ In this class we will begin discussing suggested projects. Below, I am providing
    * The main goal: A Supervised ML pipeline to combine PSI values and gene structure features to improve the PSI prediction.
    * Questions:
       1. Which tools do you plan to use to calculate PSI? Where will you get the PSI values?
-      2. Can we include splicing enhancers/silencers in the model? 
+      2. Can we include splicing enhancers/silencers in the model?
+
 ---
 
 * **Vasilis Karouanas**: Transcriptional Elongation ([Papantonis & Beyer paper](https://www.nature.com/articles/s41586-023-05922-y))
 
    * The main goal: Investigate the properties that are associated with transcriptional elongation rate. Estimate the biological age of a given cell.
    * Questions:
-      1. Explore the connection between chromatin structure, gene structure and elongation speed. We have a framework in the lab that you may use. 
+      1. Explore the connection between chromatin structure, gene structure and elongation speed. We have a framework in the lab that you may use.
       2. Note: Transcriptional elongation speed is **not connected** with noise. (Noise is a way for the cell to explore the gene expression space and assume new identities. Elongation speed is probably linked with a deterioration of chromatin structure.)
+
 ---
 
-### April 2nd, 2026: Follow up and Consolidation of Projects. 
+### April 2nd, 2026: Follow up and Consolidation of Projects.
 
-To present updates:
+#### Presenting Updates:
 
-* **Ioanna Xenaki**
-* **Athina Marouga**  
-* **Despina Georgiadou**
-* **Panagiota Meramveliotaki**  
-* **Lambros Dousias**
+* **Ioanna Xenaki**: Presentation of the project.
+* **Athina Marouga**:  Outline of HARs. Description, sequence composition and positional preferences.
+* **Despina Georgiadou**:  Update on difficulties regarding the K-on/K-off value estimation.
+* **Panagiota Meramveliotaki**:
+* **Lambros Dousias**:
 * **Eleftheria Pappa**
+
+### April 23rd, 2026: First Paper Presentations
+
+* **Ioanna Xenaki**:
+* **Lambros Dousias**: 
+* **Panagiota Meramveliotaki**: Presentation of [Lappalainen et al., 2013](https://www.nature.com/articles/nature12531)
+* **Eleftheria Pappa**: Presentation of [Sajedi et al, 2023](https://www.nature.com/articles/s41598-023-48237-8)
 
