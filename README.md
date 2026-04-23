@@ -137,8 +137,40 @@ In this class we will begin discussing suggested projects. Below, I am providing
 
 ### April 23rd, 2026: First Paper Presentations
 
-* **Ioanna Xenaki**:
-* **Lambros Dousias**: 
-* **Panagiota Meramveliotaki**: Presentation of [Lappalainen et al., 2013](https://www.nature.com/articles/nature12531)
-* **Eleftheria Pappa**: Presentation of [Sajedi et al, 2023](https://www.nature.com/articles/s41598-023-48237-8)
+* **Ioanna Xenaki**: Ghost Lineages in Introgression based on [papers here]()
+  * Main Points:
+    * 1.  Ghost species overturn existing/supposed gene flows.
+  * Next Goals:
+    * 1. Compare the two basic methodologies on simulated trees. (Also: Present the pipeline for tree simulation)
+---
+* **Lambros Dousias**: mRNA stability analysis based on [paper here]() 
+  * Main Points:
+    * 1. Input is one protein sequence (primary) and a codon usage table
+    * 2. CKY algorithm: Uses Dynamic Programing to combine MFE and CAI to define 
+  * Next Goals:
+    * 1. Get two sets of proteins: one that is shared between human and yeast and one that is human-specific. Run the algorithm and compare the resulting scores.   
+---
+* **Panagiota Meramveliotaki**: eQTL analysis Based on [Lappalainen et al., 2013](https://www.nature.com/articles/nature12531)
+  * Main Points: 
+    * 1. Increase of eQTLs among GWAS variants
+    * 2. 70% of eQTLs shared among populations
+    * 3. Largest proportion of variation may be attributed to splice variants. 
+  * Next Goals: 
+    * 1. Scan GTEx 
+---
+* **Eleftheria Pappa**: Expression and Methylation Integration in Networks. Based on [Sajedi et al, 2023](https://www.nature.com/articles/s41598-023-48237-8)
+  * Main Points: 
+    * 1. Unified Gene Networks, with each node corresponding to a gene and two attributes (expression, methylation)
+    * 2. A hyperparameter referring to the relative contribution of each of the two attributes (expression, methylation)
+    * 3. A methylation value is attributed to each gene based on a PCA dimensionality reduction.
+    * 4. WGCNA is applied to identify gene modules. 
+  * Next Goal: Find a dataset, similar to the one applied in the original paper and apply iNETGrate  
+
+### April 30th, 2026: First Paper Presentations
+
+* **Athina Marouga**
+* **Despina Georgiadou**
+* **Petros Kogios**
+* **Sergios Manakas**
+* **Vasilis Karouanas**
 
