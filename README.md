@@ -156,7 +156,7 @@ In this class we will begin discussing suggested projects. Below, I am providing
     * 2. 70% of eQTLs shared among populations
     * 3. Largest proportion of variation may be attributed to splice variants. 
   * Next Goals: 
-    * 1. Scan GTEx 
+    * 1. Scan GTEx portal to identify the datasets on which the methodology will be implemented.
 ---
 * **Eleftheria Pappa**: Expression and Methylation Integration in Networks. Based on [Sajedi et al, 2023](https://www.nature.com/articles/s41598-023-48237-8)
   * Main Points: 
