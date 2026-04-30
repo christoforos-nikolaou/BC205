@@ -18,6 +18,10 @@ The goal is to make the class more interactive and engaging, but also to provide
 
 In this way, we will be centering the course around a set of papers that we will read and discuss in class, and then we will implement the algorithms described in those papers.
 
+### Project Progress
+
+As this page is focused on the class calendar and a kind of Class Journal describing what we do every week, there is a separate Page for the progress of each project may be found [here]().
+
 ### March 19th, 2026: Discussion on Projects, Preliminary Journal Club
 
 In this class we will begin discussing suggested projects. Below, I am providing a list of papers, which may serve as fine starting points for the development of projects.
@@ -137,30 +141,35 @@ In this class we will begin discussing suggested projects. Below, I am providing
 
 ---
 
-### April 23rd, 2026: First Paper Presentations
+### April 23rd, 2026: First Paper Presentations (Pt I)
 
 * **Ioanna Xenaki**: Ghost Lineages in Introgression based on [papers here]()
    * Main Points:
+
       * 1. Ghost species overturn existing/supposed gene flows.
 
    * Next Goals:
+
       * 1. Compare the two basic methodologies on simulated trees. (Also: Present the pipeline for tree simulation)
 
 ---
 
 * **Lambros Dousias**: mRNA stability analysis based on [paper here]()
    * Main Points:
+
       * 1. Input is one protein sequence (primary) and a codon usage table
 
       * 2. CKY algorithm: Uses Dynamic Programing to combine MFE and CAI to define
 
    * Next Goals:
+
       * 1. Get two sets of proteins: one that is shared between human and yeast and one that is human-specific. Run the algorithm and compare the resulting scores.
 
 ---
 
 * **Panagiota Meramveliotaki**: eQTL analysis Based on [Lappalainen et al., 2013](https://www.nature.com/articles/nature12531)
    * Main Points:
+
       * 1. Increase of eQTLs among GWAS variants
 
       * 2. 70% of eQTLs shared among populations
@@ -168,12 +177,14 @@ In this class we will begin discussing suggested projects. Below, I am providing
       * 3. Largest proportion of variation may be attributed to splice variants.
 
    * Next Goals:
+
       * 1. Scan GTEx portal to identify the datasets on which the methodology will be implemented.
 
 ---
 
 * **Eleftheria Pappa**: Expression and Methylation Integration in Networks. Based on [Sajedi et al, 2023](https://www.nature.com/articles/s41598-023-48237-8)
    * Main Points:
+
       * 1. Unified Gene Networks, with each node corresponding to a gene and two attributes (expression, methylation)
 
       * 2. A hyperparameter referring to the relative contribution of each of the two attributes (expression, methylation)
@@ -186,11 +197,37 @@ In this class we will begin discussing suggested projects. Below, I am providing
 
 ---
 
-### April 30th, 2026: First Paper Presentations
+### April 30th, 2026: First Paper Presentations (Pt II)
+
+* **Athina Marouga**: HAR sequences in the human genome and their potential enhancer properties (based on [...])
+  * Selection of 20 HARs supported by (ATAC, enhancer-promoter looping, MPRA) against 23 test genes.
+  * HARs predominantly function as silencers, down-regulating neuron-specific genes.
+  * Specific, test cases of mutations altering the potential of HARs.  
+  * **Goal for next time**: Find a way to map TFBS from JASPAR on any given human genomic sequence. Make sure that the same thing can be done on a chimp orthologous region (this is important as pre-annotated maps may be available only for the human genome)  
+
+---
+* **Despina Georgiadou**: Transcriptional Noise Enhanced/Repressed Genes
+
+---
+
+* **Petros Kogios**
+---
+* **Stergios Manakas**
+---
+* **Vasilis Karouanas**
+---
+
+### May 7th, 2026: Project Updates  
+
+Starting from this week we will be expecting some updates on your work from everybody. I will be posting a few points/questions concerning everybody's project below. This means that all of you are expected to be able to give a short/brief update on your work for ~10 minutes. 
 
 * **Athina Marouga**
+* **Ioanna Xenaki**:
 * **Despina Georgiadou**
+* **Eleftheria Pappa**
+* **Lambros Dousias**
+* **Panagiota Meramveliotaki**
 * **Petros Kogios**
-* **Sergios Manakas**
+* **Stergios Manakas**
 * **Vasilis Karouanas**
 
