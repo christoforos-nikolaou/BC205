@@ -200,51 +200,88 @@ In this class we will begin discussing suggested projects. Below, I am providing
 ### April 30th, 2026: First Paper Presentations (Pt II)
 
 * **Athina Marouga**: HAR sequences in the human genome and their potential enhancer properties (based on [...])
-  * Selection of 20 HARs supported by (ATAC, enhancer-promoter looping, MPRA) against 23 test genes.
-  * HARs predominantly function as silencers, down-regulating neuron-specific genes.
-  * Specific, test cases of mutations altering the potential of HARs.  
-  * **Goal for next time**: Find a way to map TFBS from JASPAR on any given human genomic sequence. Make sure that the same thing can be done on a chimp orthologous region (this is important as pre-annotated maps may be available only for the human genome)  
+   * Selection of 20 HARs supported by (ATAC, enhancer-promoter looping, MPRA) against 23 test genes.
+   * HARs predominantly function as silencers, down-regulating neuron-specific genes.
+   * Specific, test cases of mutations altering the potential of HARs.
+   * **Goal for next time**: Find a way to map TFBS from JASPAR on any given human genomic sequence. Make sure that the same thing can be done on a chimp orthologous region (this is important as pre-annotated maps may be available only for the human genome)
 
 ---
+
 * **Despina Georgiadou**: Transcriptional Noise Enhanced/Repressed Genes (based on [Garcia-Blay et al, 2025])
-  * Identification of SON as major noise-modulating factor
-  * Correlation of noise with NS-association. SON-noise regulation is independent of NS formation/disruption.
-  * Noise control is linked to intron properties. 
-  * **Goal for next time**: Find the lists of noise-enhanced/repressed and mean-enhanced/repressed genes upon SON-kd. See how to get them or create them if possible. 
+   * Identification of SON as major noise-modulating factor
+   * Correlation of noise with NS-association. SON-noise regulation is independent of NS formation/disruption.
+   * Noise control is linked to intron properties.
+   * **Goal for next time**: Find the lists of noise-enhanced/repressed and mean-enhanced/repressed genes upon SON-kd. See how to get them or create them if possible.
+
 ---
 
 * **Petros Kogios**: Design Principles of Cell-state specific Enhancers (based on [Fromel et al., 2025])
-  * A general description of the process for defining enhancer pairs.
-  * **Goal for next time**: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper. 
+   * A general description of the process for defining enhancer pairs.
+   * **Goal for next time**: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper.
+
 ---
 
 * **Stergios Manakas**: Genome Architecture and 3D Chromatin regulating splicing patterns (based on [Tammer et al., 2025])
-  * Genome Organization and GC% affects the splicing patterns of genes.
-  * **Goals for next time**: Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
+   * Genome Organization and GC% affects the splicing patterns of genes.
+   * __Goals for next time__: Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
+
 ---
 
 * **Vasilis Karouanas**: Transcriptional Elongation Rate in Senescence (based on [Debes et al., 2022])
-  *  **Goals for next time**: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
+   * **Goals for next time**: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
+
 ---
 
-### May 7th, 2026: Project Updates  
+### May 7th, 2026: Project Updates
 
-Starting from this week we will be expecting some updates on your work from everybody. I will be posting a few points/questions concerning everybody's project below. This means that all of you are expected to be able to give a short/brief update on your work for ~10 minutes. 
+Starting from this week we will be expecting some updates on your work from everybody. I will be posting a few points/questions concerning everybody's project below. This means that all of you are expected to be able to give a short/brief update on your work for ~10 minutes.
 
-* **Athina Marouga** 
-  - Update: Setting up a pipeline that will identify Transcription Factor Binding Sites in a Given Genomic Sequence.   
-  - Discussion: What are PWMs/PSSMs? How do we search for a TF binding site in a sequence?
+* **Athina Marouga**
+   - Update: Setting up a pipeline that will identify Transcription Factor Binding Sites in a Given Genomic Sequence.
+   - Discussion: What are PWMs/PSSMs? How do we search for a TF binding site in a sequence?
+
 ---
 
 * **Ioanna Xenaki**
-  - Update: Present a pipeline for simulated trees and introgression events. 
-  - Discussion: 
+   - Update: Present a pipeline for simulated trees and introgression events.
+   - Discussion: Discuss the way simulation works? What types of parameters are important?
+
+---
 
 * **Despina Georgiadou**
+   - Update: See if we can obtain the noise/mean-enhanced/repressed gene lists.
+   - Discussion: Discuss the way mean/noise-enhancement is assessed. What does it mean to be noised-enhanced?
+
+---
+
 * **Eleftheria Pappa**
+   - Update: Present a dataset that combines gene expression and DNA methylation and transform it in the required structure so that iNETGrate is applied on it.
+   - Discussion: What do we expect from the correlation of DNA methylation and Gene Expression? What is the textbook rule(s) (if any) about the connection between the two?
+
+---
+
 * **Lambros Dousias**
+   - Update: Present two sets of proteins: one that is shared between human and yeast and one that is human-specific. If possible present the algorithm output and compare the resulting scores.
+
+---
+
 * **Panagiota Meramveliotaki**
+  * Update: GTEx datasets.
+
+---
+
 * **Petros Kogios**
+    * Update: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper.
+
+---
+
 * **Stergios Manakas**
+    * Updates on Mapping Diff-Splicing. Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
+
+---
+
 * **Vasilis Karouanas**
+    * Update: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
+
+---
 
