@@ -20,7 +20,7 @@ In this way, we will be centering the course around a set of papers that we will
 
 ### Project Progress
 
-As this page is focused on the class calendar and a kind of Class Journal describing what we do every week, there is a separate Page for the progress of each project may be found [here]().
+As this page is focused on the class calendar and a kind of Class Journal describing what we do every week, there is a separate Page for the progress of each project may be found [here](https://github.com/christoforos-nikolaou/BC205/blob/master/ProjectProgress2026.ipynb).
 
 ### March 19th, 2026: Discussion on Projects, Preliminary Journal Club
 
@@ -206,23 +206,40 @@ In this class we will begin discussing suggested projects. Below, I am providing
   * **Goal for next time**: Find a way to map TFBS from JASPAR on any given human genomic sequence. Make sure that the same thing can be done on a chimp orthologous region (this is important as pre-annotated maps may be available only for the human genome)  
 
 ---
-* **Despina Georgiadou**: Transcriptional Noise Enhanced/Repressed Genes
-
+* **Despina Georgiadou**: Transcriptional Noise Enhanced/Repressed Genes (based on [Garcia-Blay et al, 2025])
+  * Identification of SON as major noise-modulating factor
+  * Correlation of noise with NS-association. SON-noise regulation is independent of NS formation/disruption.
+  * Noise control is linked to intron properties. 
+  * **Goal for next time**: Find the lists of noise-enhanced/repressed and mean-enhanced/repressed genes upon SON-kd. See how to get them or create them if possible. 
 ---
 
-* **Petros Kogios**
+* **Petros Kogios**: Design Principles of Cell-state specific Enhancers (based on [Fromel et al., 2025])
+  * A general description of the process for defining enhancer pairs.
+  * **Goal for next time**: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper. 
 ---
-* **Stergios Manakas**
+
+* **Stergios Manakas**: Genome Architecture and 3D Chromatin regulating splicing patterns (based on [Tammer et al., 2025])
+  * Genome Organization and GC% affects the splicing patterns of genes.
+  * **Goals for next time**: Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
 ---
-* **Vasilis Karouanas**
+
+* **Vasilis Karouanas**: Transcriptional Elongation Rate in Senescence (based on [Debes et al., 2022])
+  *  **Goals for next time**: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
 ---
 
 ### May 7th, 2026: Project Updates  
 
 Starting from this week we will be expecting some updates on your work from everybody. I will be posting a few points/questions concerning everybody's project below. This means that all of you are expected to be able to give a short/brief update on your work for ~10 minutes. 
 
-* **Athina Marouga**
-* **Ioanna Xenaki**:
+* **Athina Marouga** 
+  - Update: Setting up a pipeline that will identify Transcription Factor Binding Sites in a Given Genomic Sequence.   
+  - Discussion: What are PWMs/PSSMs? How do we search for a TF binding site in a sequence?
+---
+
+* **Ioanna Xenaki**
+  - Update: Present a pipeline for simulated trees and introgression events. 
+  - Discussion: 
+
 * **Despina Georgiadou**
 * **Eleftheria Pappa**
 * **Lambros Dousias**
