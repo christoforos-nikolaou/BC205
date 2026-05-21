@@ -237,51 +237,131 @@ In this class we will begin discussing suggested projects. Below, I am providing
 Starting from this week we will be expecting some updates on your work from everybody. I will be posting a few points/questions concerning everybody's project below. This means that all of you are expected to be able to give a short/brief update on your work for ~10 minutes.
 
 * **Athina Marouga**
-   - Update: Setting up a pipeline that will identify Transcription Factor Binding Sites in a Given Genomic Sequence.
-   - Discussion: What are PWMs/PSSMs? How do we search for a TF binding site in a sequence?
 
----
+   - Update: Setting up a pipeline that will identify Transcription Factor Binding Sites in a Given Genomic Sequence.
+   - Discussion: What are PFMs/PWMs/PSSMs? How do we search for a TF binding site in a sequence?
+   - Updates: JASPAR PFMs were downloaded and parsed (how many PFMs?). Nice idea to use liftOver to identify Human-Chimp homologous regions.
+   - Next Steps: Implement a sequence-specific background for the creation of PSSMs.
 
 * **Ioanna Xenaki**
+
    - Update: Present a pipeline for simulated trees and introgression events.
    - Discussion: Discuss the way simulation works? What types of parameters are important?
-
----
+   - Update: Simulation pipelines for tree creation and introgression events were presented.
+   - Next Steps:
 
 * **Despina Georgiadou**
+
    - Update: See if we can obtain the noise/mean-enhanced/repressed gene lists.
    - Discussion: Discuss the way mean/noise-enhancement is assessed. What does it mean to be noised-enhanced?
+   - Next Steps: Obtain Seurat object or data-frame for the single-cell data.
+
+* **Eleftheria Pappa**
+
+   - Update: Present a dataset that combines gene expression and DNA methylation and transform it in the required structure so that iNETGrate is applied on it.
+   - Discussion: What do we expect from the correlation of DNA methylation and Gene Expression? What is the textbook rule(s) (if any) about the connection between the two?
+
+* **Lambros Dousias**
+
+   - Update: Present two sets of proteins: one that is shared between human and yeast and one that is human-specific. If possible present the algorithm output and compare the resulting scores.
+   - Update: Two sets of proteins (15 each) were compared at the level of CAI(Human)-CAI(Yeast).
+   - Next Step: Automatize the process for a) larger protein sets b) also accounting for protein length as a co-variate
+
+* **Panagiota Meramveliotaki**
+
+   * Update: Implementation on a GTEx dataset (liver tissue). (Datasets for other tissues are also available)
+   * Update: First results on the comparison of GTEx-liver tissue and LCLs. Very small overlaps.
+   * Next Step: Compare Geuvadis eQTLs with Whole Blood Data from GTEx. See if we get greater overlaps.
+
+* **Petros Kogios**
+
+   * Update: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper.
+   * Update: A strategy was presented to check co-repressor pairs on the natural sequence library G of the same paper.
+   * Next Steps: Expand this analysis for all 13 co-repressor pairs reported by the authors. Discuss results.
+
+* **Stergios Manakas**
+
+   * Updates on Mapping Diff-Splicing. Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
+   * Update: Data were downloaded from VAST-DB, containing PSI values in various tissues
+   * Next Steps: Assess consistent or non-consistent splicing patterns across events (focusing on ES and IR)
+
+* **Vasilis Karouanas**
+
+   * Presentation of the paper (Debes, Papadakis et al, Nature 2023).
+   * Update: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
+   * Update: A call to be arranged for obtaining the pre-processed total RNAseq data.
 
 ---
 
+### May 14th, 2026: Project Updates
+
+* **Stergios Manakas**
+
+   - Next Steps: Calculate Z-scores for all IR, ES events in VAST-DB, across all ~200 samples.
+
+* **Lambros Dousias**
+
+   - Next Steps: Identify Yeast-to-Human Ortholog Genes. Create list of Yeast-Human Shared and Non-shared Genes.
+
+* **Despina Georgiadou**
+
+   - Update: Discussion on the metrics used for the definition of noise-enhancement/repression
+   - Next Steps: The Hansen lab does not reply so we can try and use the preprocessed scRNASeq counts we may find from [here](https://drive.google.com/drive/folders/1ByzWitESQ9EhWzOcnij8CZKggyhWYjuH?usp=drive_link).
+   - Next Steps: Implement the metrics (Fano, CV-squared, Overdispersion on the above data matrices).
+
+* **Athina Marouga**
+
+   - Update: PSSM strategy was changed to incorporate target-sequence-specific background composition.
+   - Next Steps: Run the sequence-specific background for the creation of PSSMs.
+   - Next Steps: Map discoverd TFBS on Pairwise Alignments of Human-Chimp HARs.
+
+* **Panagiota Meramveliotaki**
+
+   * Update: Comparison of Geuvadis eQTLs with Whole Blood Data from GTEx. Whole Blood and EBV lymphocytes yield greater numbers of common eQTLs.
+   * Next Steps: Work on GTEx data. Provide Original Questions on the planned Analysis
+
 * **Eleftheria Pappa**
-   - Update: Present a dataset that combines gene expression and DNA methylation and transform it in the required structure so that iNETGrate is applied on it.
+
+   - Update: Updates on iNETgrate functionalities.
    - Discussion: What do we expect from the correlation of DNA methylation and Gene Expression? What is the textbook rule(s) (if any) about the connection between the two?
 
 ---
 
-* **Lambros Dousias**
-   - Update: Present two sets of proteins: one that is shared between human and yeast and one that is human-specific. If possible present the algorithm output and compare the resulting scores.
+### May 21st, 2026: Project Updates
 
----
-
-* **Panagiota Meramveliotaki**
-  * Update: GTEx datasets.
-
----
-
-* **Petros Kogios**
-    * Update: Identify the gene targets of Transcription Factors belonging to the pairs of interacting TFs discussed in the paper.
-
----
-
-* **Stergios Manakas**
-    * Updates on Mapping Diff-Splicing. Map differential splicing events in genes based on a) either DPSI values from real experiments or b) databases like [VAST-DB](https://vastdb.crg.eu/wiki/Main_Page)
-
----
+* **Despina Georgiadou**
+   - Update: Application of BASiCS on the CHX treatment requires a lot of computational time.
+   - Next Steps: Provide DG with access to our server so that she can run the treatment. (Action Required)
 
 * **Vasilis Karouanas**
-    * Update: Present a way to calculate the transcriptional elongation rate based on RNASeq intronic reads
+   - Update: An approach to calculate the slopes is in place but not tested yet.
+   - Next Steps: Provide VK with the pre-processed data from the Debes paper. (Action Required)
 
----
+* **Panagiota Meramveliotaki**
+
+   * Update: Brainstorming/Reading so as to narrow down on  original questions on the planned Analysis. CPIC genes were obrained from the ClinPGx database. These are genes (n=34, Level 1A) for which modulation of drug dosage is recommended on the basis of the patient's genotype.
+   * Next Steps: Extend data onto more genes (perhaps Level 1B) and tissues in order to increase statistical power. Start reporting.
+
+* **Petros Kogios**
+   - Update: Checking the pair of Spi1/Fli1 on the natural sequence library G from Fromel et al. A nice analysis is in place and will be shared to see if it can be expanded.
+   - Next Steps: Share analysis to discuss. Implement it in the complete set of 12 pair factors.
+
+* **Lambros Dousias**
+   - Update: A test on 30 vs 30 shared/human-specific yields statistically significant differences. 
+   - Next Steps: Identify Yeast-to-Human Ortholog Genes. Create list of Yeast-Human Shared and Non-shared Genes. (Action Required)
+
+* **Athina Marouga**
+   - Update: Pairwise Alignments with MAFFT have been completed. 
+   - Next Steps: Try to map discoverd TFBS on Pairwise Alignments of Human-Chimp HARs.
+
+* **Ioanna Xenaki**
+   - Update: Completed comparative analysis of D/D3 in simulated data
+   - Next Steps: Proceed with the implementation in read data.
+
+* **Stergios Manakas**
+   - Update: Z-score has been calculated for all events 
+   - Next Steps: Compare IR/ES/Alt-DA distribution of Z-scores across tissues. Remember to revert ES or IR values to 1-DPSI.
+
+* **Eleftheria Pappa**
+   - Update: Updates on iNETgrate functionalities. Will be talking first next time.
 
