@@ -330,10 +330,12 @@ Starting from this week we will be expecting some updates on your work from ever
 ### May 21st, 2026: Project Updates
 
 * **Despina Georgiadou**
+
    - Update: Application of BASiCS on the CHX treatment requires a lot of computational time.
    - Next Steps: Provide DG with access to our server so that she can run the treatment. (Action Required)
 
 * **Vasilis Karouanas**
+
    - Update: An approach to calculate the slopes is in place but not tested yet.
    - Next Steps: Provide VK with the pre-processed data from the Debes paper. (Action Required)
 
@@ -343,25 +345,31 @@ Starting from this week we will be expecting some updates on your work from ever
    * Next Steps: Extend data onto more genes (perhaps Level 1B) and tissues in order to increase statistical power. Start reporting.
 
 * **Petros Kogios**
+
    - Update: Checking the pair of Spi1/Fli1 on the natural sequence library G from Fromel et al. A nice analysis is in place and will be shared to see if it can be expanded.
    - Next Steps: Share analysis to discuss. Implement it in the complete set of 12 pair factors.
 
 * **Lambros Dousias**
-   - Update: A test on 30 vs 30 shared/human-specific yields statistically significant differences. 
+
+   - Update: A test on 30 vs 30 shared/human-specific yields statistically significant differences.
    - Next Steps: Identify Yeast-to-Human Ortholog Genes. Create list of Yeast-Human Shared and Non-shared Genes. (Action Required)
 
 * **Athina Marouga**
-   - Update: Pairwise Alignments with MAFFT have been completed. 
+
+   - Update: Pairwise Alignments with MAFFT have been completed.
    - Next Steps: Try to map discoverd TFBS on Pairwise Alignments of Human-Chimp HARs.
 
 * **Ioanna Xenaki**
+
    - Update: Completed comparative analysis of D/D3 in simulated data
    - Next Steps: Proceed with the implementation in read data.
 
 * **Stergios Manakas**
-   - Update: Z-score has been calculated for all events 
+
+   - Update: Z-score has been calculated for all events
    - Next Steps: Compare IR/ES/Alt-DA distribution of Z-scores across tissues. Remember to revert ES or IR values to 1-DPSI.
 
 * **Eleftheria Pappa**
+
    - Update: Updates on iNETgrate functionalities. Will be talking first next time.
 
