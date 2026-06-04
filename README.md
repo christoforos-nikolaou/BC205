@@ -373,3 +373,31 @@ Starting from this week we will be expecting some updates on your work from ever
 
    - Update: Updates on iNETgrate functionalities. Will be talking first next time.
 
+---
+
+### June 4th, 2026: Project Updates
+
+* **Panagiota Meramveliotaki**
+   * Update: Work has been developing into the final report. (Next Week, Recap)
+
+* **Athing Marougka**
+   * Update: Go back to the original analysis of loss/gain and identify HARs that entirely loose/gain TFs. (Next Week, Recap)
+
+* **Despoina Georgiadou**
+   * Update: Obtain Noise-Enhanced/Noise-Repressed, Mean-Enhanced, Mean-Repressed and compare them at the level of Gene Features.  
+
+* **Stergios Manakas**
+   * Update: Clustering of tissues on the basis of mean IR, ES, ALT-DA.
+
+* **Lambros Dousias**
+   * Update: Check if the server may be available so that LD runs all proteins.
+
+* **Petros Kogios**
+   * Update: Completion of Analysis (Next Week, Recap)
+
+* **Ioanna Xenaki**
+   * Update: Final Results on read data. (Next Week, Recap)  
+
+* **Eleftheria Pappa**
+   * Update: (Next Week, Recap)
+
